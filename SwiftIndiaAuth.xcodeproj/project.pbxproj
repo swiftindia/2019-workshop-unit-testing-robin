@@ -10,6 +10,8 @@
 		42F6CC2A22E4F8EA0018796A /* SwiftIndiaAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F6CC2022E4F8EA0018796A /* SwiftIndiaAuth.framework */; };
 		42F6CC2F22E4F8EA0018796A /* SwiftIndiaAuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F6CC2E22E4F8EA0018796A /* SwiftIndiaAuthTests.swift */; };
 		42F6CC3122E4F8EA0018796A /* SwiftIndiaAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 42F6CC2322E4F8EA0018796A /* SwiftIndiaAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42F6CC3B22E4F93B0018796A /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F6CC3A22E4F93B0018796A /* Method.swift */; };
+		42F6CC3D22E4FB4B0018796A /* MakeRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F6CC3C22E4FB4B0018796A /* MakeRequestTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		42F6CC2922E4F8EA0018796A /* SwiftIndiaAuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftIndiaAuthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42F6CC2E22E4F8EA0018796A /* SwiftIndiaAuthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftIndiaAuthTests.swift; sourceTree = "<group>"; };
 		42F6CC3022E4F8EA0018796A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42F6CC3A22E4F93B0018796A /* Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
+		42F6CC3C22E4FB4B0018796A /* MakeRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeRequestTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,7 @@
 		42F6CC2222E4F8EA0018796A /* SwiftIndiaAuth */ = {
 			isa = PBXGroup;
 			children = (
+				42F6CC3A22E4F93B0018796A /* Method.swift */,
 				42F6CC2322E4F8EA0018796A /* SwiftIndiaAuth.h */,
 				42F6CC2422E4F8EA0018796A /* Info.plist */,
 			);
@@ -81,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				42F6CC2E22E4F8EA0018796A /* SwiftIndiaAuthTests.swift */,
+				42F6CC3C22E4FB4B0018796A /* MakeRequestTests.swift */,
 				42F6CC3022E4F8EA0018796A /* Info.plist */,
 			);
 			path = SwiftIndiaAuthTests;
@@ -148,6 +154,7 @@
 				TargetAttributes = {
 					42F6CC1F22E4F8EA0018796A = {
 						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
 					};
 					42F6CC2822E4F8EA0018796A = {
 						CreatedOnToolsVersion = 11.0;
@@ -195,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42F6CC3B22E4F93B0018796A /* Method.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42F6CC2F22E4F8EA0018796A /* SwiftIndiaAuthTests.swift in Sources */,
+				42F6CC3D22E4FB4B0018796A /* MakeRequestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +349,7 @@
 		42F6CC3522E4F8EA0018796A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 7G2XZXD8B4;
@@ -356,6 +366,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rmalhotra.SwiftIndiaAuth;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +375,7 @@
 		42F6CC3622E4F8EA0018796A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 7G2XZXD8B4;
@@ -388,6 +400,7 @@
 		42F6CC3822E4F8EA0018796A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7G2XZXD8B4;
 				INFOPLIST_FILE = SwiftIndiaAuthTests/Info.plist;
@@ -406,6 +419,7 @@
 		42F6CC3922E4F8EA0018796A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7G2XZXD8B4;
 				INFOPLIST_FILE = SwiftIndiaAuthTests/Info.plist;
