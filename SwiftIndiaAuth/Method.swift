@@ -13,6 +13,15 @@ struct Request {
 	enum Method {
 		case get
 		case post
+
+		func string() -> String {
+			switch self {
+			case .get:
+				return "GET"
+			case .post:
+				return "POST"
+			}
+		}
 	}
 
 	let method: Method
@@ -22,5 +31,8 @@ struct Request {
 	}
 
 	func toURLRequest() throws -> URLRequest {
+		var request = URLRequest(url: URL(string: "https://google.com")!)
+		request.httpMethod = self.method.string()
+		return request
 	}
 }

@@ -13,7 +13,6 @@ class MakeRequestTests: XCTestCase {
 	func testCorrectHTTPMethod() throws {
 		let request = Request(method: .get)
 		let urlRequest = try request.toURLRequest()
-		URLRequest.http
 		XCTAssertEqual(urlRequest.httpMethod, "GET")
 	}
 }
