@@ -36,3 +36,23 @@ struct Request {
 		return request
 	}
 }
+
+public struct Endpoint {
+	let path: String
+	let baseURL: String
+
+	public var url: URL? {
+		var components = URLComponents()
+		/// We can have our schemes coming in externally as well
+		components.scheme = "https"
+		components.host = baseURL
+		components.path = path
+		return components.url
+	}
+}
+
+enum Auth {
+	static func tokenEndpoint(with baseURL: String) -> Endpoint {
+		return Endpoint(path: "/oauth/token", baseURL: baseURL)
+	}
+}

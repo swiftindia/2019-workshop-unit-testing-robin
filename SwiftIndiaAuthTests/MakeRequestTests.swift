@@ -15,4 +15,9 @@ class MakeRequestTests: XCTestCase {
 		let urlRequest = try request.toURLRequest()
 		XCTAssertEqual(urlRequest.httpMethod, "GET")
 	}
+
+	func testLoginEndpoint() {
+		let endpoint = Auth.tokenEndpoint(with: "google.com")
+		XCTAssertEqual(endpoint.url?.absoluteString, "https://google.com/oauth/token")
+	}
 }
