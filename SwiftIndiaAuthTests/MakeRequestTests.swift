@@ -7,10 +7,12 @@
 //
 
 import XCTest
+import Fakery
 @testable import SwiftIndiaAuth
 
 class MakeRequestTests: XCTestCase {
 
+	let fakery = Faker()
 	let validBase = "swiftindiaauth.herokuapp.com"
 	lazy var validEndpoint = Auth.tokenEndpoint(with: self.validBase)
 
@@ -47,8 +49,12 @@ class MakeRequestTests: XCTestCase {
 	}
 
 	func testHeaders() throws {
-		let request = Auth.tokenRequest(with: validBase)
-		let urlRequest = try request.toURLRequest()
-		
+		let randomNumberOfHeaders = fakery.number.randomInt(min: 10, max: 100)
+		let headerDict: [String: String] = (0..<randomNumberOfHeaders).reduce(into: [:]) { (dict, _) in
+			dict[UUID().uuidString] = UUID().uuidString
+		}
+
+		let urlRequest = try Request(method: .get, endpoint: Auth.tokenEndpoint(with: "https://apple.com"), headers: headerDict).toURLRequest()
+		XCTAssertEqual(urlRequest.allHTTPHeaderFields, headerDict)
 	}
 }

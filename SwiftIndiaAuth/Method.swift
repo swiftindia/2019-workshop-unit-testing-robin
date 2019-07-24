@@ -39,6 +39,9 @@ struct Request {
 		}
 		var request = URLRequest(url: url)
 		request.httpMethod = self.method.string()
+		for (key, value) in headers {
+			request.setValue(value, forHTTPHeaderField: key)
+		}
 		return request
 	}
 }
