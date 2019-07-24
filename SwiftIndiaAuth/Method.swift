@@ -8,6 +8,10 @@
 
 import Foundation
 
+protocol DataConvertible {
+	func toData() throws -> Data
+}
+
 struct Request {
 
 	enum Method {
@@ -24,13 +28,16 @@ struct Request {
 	let method: Method
 	let endpoint: Endpoint
 	let headers: [String: String]
+	let body: DataConvertible
 
 	init(method: Method,
 		endpoint: Endpoint,
-		headers: [String: String] = [:]) {
+		headers: [String: String] = [:],
+		body: DataConvertible) {
 		self.method = method
 		self.endpoint = endpoint
 		self.headers = headers
+		self.body = body
 	}
 
 	func toURLRequest() throws -> URLRequest {
@@ -42,6 +49,8 @@ struct Request {
 		for (key, value) in headers {
 			request.setValue(value, forHTTPHeaderField: key)
 		}
+
+		request.httpBody = try body.toData()
 		return request
 	}
 }
@@ -69,8 +78,36 @@ enum Auth {
 		return Endpoint(path: "/oauth/token", baseURL: baseURL)
 	}
 
-	static func tokenRequest(with baseURL: String) -> Request {
-		return Request(method: .get, endpoint: Auth.tokenEndpoint(with: baseURL), headers: [:])
+	struct Login {
+		static func tokenRequest(with baseURL: String, inputs: Inputs) -> Request {
+			return Request(method: .get, endpoint: Auth.tokenEndpoint(with: baseURL), headers: [:], body: inputs)
+		}
+
+		struct Inputs: Codable, Equatable, DataConvertible {
+			let username: String
+			let password: String
+			let clientID: String
+			let clientSecret: String
+
+			let grantType = "password"
+			let scope = "offline_access"
+
+			enum CodingKeys: String, CodingKey {
+				case clientID = "clientId"
+				case username
+				case password
+				case clientSecret
+				case grantType
+				case scope
+			}
+
+			func toData() throws -> Data {
+				let encoder = JSONEncoder()
+				encoder.keyEncodingStrategy = .convertToSnakeCase
+				return try encoder.encode(self)
+			}
+
+		}
 	}
 }
 

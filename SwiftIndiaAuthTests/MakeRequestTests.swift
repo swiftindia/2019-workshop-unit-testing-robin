@@ -14,24 +14,26 @@ class MakeRequestTests: XCTestCase {
 
 	let fakery = Faker()
 	let validBase = "swiftindiaauth.herokuapp.com"
+	lazy var inputs = Auth.Login.Inputs(username: fakery.name.firstName(), password: fakery.internet.password(), clientID: fakery.team.name(), clientSecret: fakery.internet.password())
+
 	lazy var validEndpoint = Auth.tokenEndpoint(with: self.validBase)
 
 
 	func testCorrectHTTPMethod() throws {
-		let request = Request(method: .get, endpoint: validEndpoint)
+		let request = Request(method: .get, endpoint: validEndpoint, body: inputs)
 		let urlRequest = try request.toURLRequest()
 		XCTAssertEqual(urlRequest.httpMethod, "GET")
 	}
 
 	func testCorrectEndpointURLInRequest() throws {
-		let request = Request(method: .get, endpoint: validEndpoint)
+		let request = Request(method: .get, endpoint: validEndpoint, body: inputs)
 		let urlRequest = try request.toURLRequest()
 		XCTAssertEqual(urlRequest.url?.absoluteString, "https://swiftindiaauth.herokuapp.com/oauth/token")
 	}
 
 	func testIncorrectEndpointURLInRequest() throws {
 		let invalidEndpoint = Endpoint(path: "oauth/token", baseURL: "google.com")
-		let request = Request(method: .get, endpoint: invalidEndpoint)
+		let request = Request(method: .get, endpoint: invalidEndpoint, body: inputs)
 		do {
 			_ = try request.toURLRequest()
 		} catch {
@@ -53,8 +55,24 @@ class MakeRequestTests: XCTestCase {
 		let headerDict: [String: String] = (0..<randomNumberOfHeaders).reduce(into: [:]) { (dict, _) in
 			dict[UUID().uuidString] = UUID().uuidString
 		}
-
-		let urlRequest = try Request(method: .get, endpoint: Auth.tokenEndpoint(with: "https://apple.com"), headers: headerDict).toURLRequest()
+		let urlRequest = try Request(method: .get, endpoint: Auth.tokenEndpoint(with: "https://apple.com"), headers: headerDict, body: inputs).toURLRequest()
 		XCTAssertEqual(urlRequest.allHTTPHeaderFields, headerDict)
+	}
+
+	func testAuthTokenRequest() throws {
+		let request = try Auth.Login.tokenRequest(with: "swiftindiaauth.herokuapp.com", inputs: inputs).toURLRequest()
+		let decoder = JSONDecoder.init()
+		decoder.keyDecodingStrategy = .convertFromSnakeCase
+
+		print(String.init(data: request.httpBody!, encoding: .utf8))
+		do {
+			let receivedInputs = try decoder.decode(Auth.Login.Inputs.self, from: request.httpBody!)
+			XCTAssertEqual(receivedInputs, inputs)
+
+			XCTAssertEqual(request.url?.absoluteString, "https://swiftindiaauth.herokuapp.com/oauth/token")
+		} catch {
+			XCTFail(error.localizedDescription)
+		}
+
 	}
 }
