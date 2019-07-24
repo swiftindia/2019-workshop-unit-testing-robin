@@ -23,11 +23,14 @@ struct Request {
 
 	let method: Method
 	let endpoint: Endpoint
+	let headers: [String: String]
 
 	init(method: Method,
-		endpoint: Endpoint) {
+		endpoint: Endpoint,
+		headers: [String: String] = [:]) {
 		self.method = method
 		self.endpoint = endpoint
+		self.headers = headers
 	}
 
 	func toURLRequest() throws -> URLRequest {
@@ -61,6 +64,10 @@ public struct Endpoint: Equatable {
 enum Auth {
 	static func tokenEndpoint(with baseURL: String) -> Endpoint {
 		return Endpoint(path: "/oauth/token", baseURL: baseURL)
+	}
+
+	static func tokenRequest(with baseURL: String) -> Request {
+		return Request(method: .get, endpoint: Auth.tokenEndpoint(with: baseURL), headers: [:])
 	}
 }
 

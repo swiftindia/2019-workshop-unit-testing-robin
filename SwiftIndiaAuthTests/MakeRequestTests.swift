@@ -11,7 +11,8 @@ import XCTest
 
 class MakeRequestTests: XCTestCase {
 
-	let validEndpoint = Auth.tokenEndpoint(with: "swiftindiaauth.herokuapp.com")
+	let validBase = "swiftindiaauth.herokuapp.com"
+	lazy var validEndpoint = Auth.tokenEndpoint(with: self.validBase)
 
 
 	func testCorrectHTTPMethod() throws {
@@ -42,7 +43,12 @@ class MakeRequestTests: XCTestCase {
 	}
 
 	func testLoginEndpoint() {
-		let endpoint = Auth.tokenEndpoint(with: "swiftindiaauth.herokuapp.com")
-		XCTAssertEqual(endpoint.url?.absoluteString, "https://swiftindiaauth.herokuapp.com/oauth/token")
+		XCTAssertEqual(validEndpoint.url?.absoluteString, "https://swiftindiaauth.herokuapp.com/oauth/token")
+	}
+
+	func testHeaders() throws {
+		let request = Auth.tokenRequest(with: validBase)
+		let urlRequest = try request.toURLRequest()
+		
 	}
 }

@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		309769667A96B51E7285348C /* Pods_SwiftIndiaAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A90A2DD99477C491774F22DD /* Pods_SwiftIndiaAuth.framework */; };
 		42F6CC2A22E4F8EA0018796A /* SwiftIndiaAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F6CC2022E4F8EA0018796A /* SwiftIndiaAuth.framework */; };
 		42F6CC2F22E4F8EA0018796A /* SwiftIndiaAuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F6CC2E22E4F8EA0018796A /* SwiftIndiaAuthTests.swift */; };
 		42F6CC3122E4F8EA0018796A /* SwiftIndiaAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 42F6CC2322E4F8EA0018796A /* SwiftIndiaAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		42F6CC3B22E4F93B0018796A /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F6CC3A22E4F93B0018796A /* Method.swift */; };
 		42F6CC3D22E4FB4B0018796A /* MakeRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F6CC3C22E4FB4B0018796A /* MakeRequestTests.swift */; };
+		B74AA2DC42519A37662D8B8F /* Pods_SwiftIndiaAuthTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF91CFF5E3C1A5C1C1C47DEF /* Pods_SwiftIndiaAuthTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		341E5273618E132CAF6C7B06 /* Pods-SwiftIndiaAuthTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftIndiaAuthTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftIndiaAuthTests/Pods-SwiftIndiaAuthTests.release.xcconfig"; sourceTree = "<group>"; };
 		42F6CC2022E4F8EA0018796A /* SwiftIndiaAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftIndiaAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42F6CC2322E4F8EA0018796A /* SwiftIndiaAuth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftIndiaAuth.h; sourceTree = "<group>"; };
 		42F6CC2422E4F8EA0018796A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,6 +36,11 @@
 		42F6CC3022E4F8EA0018796A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42F6CC3A22E4F93B0018796A /* Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
 		42F6CC3C22E4FB4B0018796A /* MakeRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeRequestTests.swift; sourceTree = "<group>"; };
+		A90A2DD99477C491774F22DD /* Pods_SwiftIndiaAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftIndiaAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD395F782963672C9AEF74E /* Pods-SwiftIndiaAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftIndiaAuth.debug.xcconfig"; path = "Target Support Files/Pods-SwiftIndiaAuth/Pods-SwiftIndiaAuth.debug.xcconfig"; sourceTree = "<group>"; };
+		C43463281AD703B945D66AC4 /* Pods-SwiftIndiaAuthTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftIndiaAuthTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftIndiaAuthTests/Pods-SwiftIndiaAuthTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C77D9F6CD7DBECB0CEB21347 /* Pods-SwiftIndiaAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftIndiaAuth.release.xcconfig"; path = "Target Support Files/Pods-SwiftIndiaAuth/Pods-SwiftIndiaAuth.release.xcconfig"; sourceTree = "<group>"; };
+		CF91CFF5E3C1A5C1C1C47DEF /* Pods_SwiftIndiaAuthTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftIndiaAuthTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				309769667A96B51E7285348C /* Pods_SwiftIndiaAuth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,18 +57,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				42F6CC2A22E4F8EA0018796A /* SwiftIndiaAuth.framework in Frameworks */,
+				B74AA2DC42519A37662D8B8F /* Pods_SwiftIndiaAuthTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27E580E8CF343D965BAF621D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A90A2DD99477C491774F22DD /* Pods_SwiftIndiaAuth.framework */,
+				CF91CFF5E3C1A5C1C1C47DEF /* Pods_SwiftIndiaAuthTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		42F6CC1622E4F8EA0018796A = {
 			isa = PBXGroup;
 			children = (
 				42F6CC2222E4F8EA0018796A /* SwiftIndiaAuth */,
 				42F6CC2D22E4F8EA0018796A /* SwiftIndiaAuthTests */,
 				42F6CC2122E4F8EA0018796A /* Products */,
+				A6B3DDEADE58641A6B6E97E7 /* Pods */,
+				27E580E8CF343D965BAF621D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +113,18 @@
 			path = SwiftIndiaAuthTests;
 			sourceTree = "<group>";
 		};
+		A6B3DDEADE58641A6B6E97E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABD395F782963672C9AEF74E /* Pods-SwiftIndiaAuth.debug.xcconfig */,
+				C77D9F6CD7DBECB0CEB21347 /* Pods-SwiftIndiaAuth.release.xcconfig */,
+				C43463281AD703B945D66AC4 /* Pods-SwiftIndiaAuthTests.debug.xcconfig */,
+				341E5273618E132CAF6C7B06 /* Pods-SwiftIndiaAuthTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -110,6 +143,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42F6CC3422E4F8EA0018796A /* Build configuration list for PBXNativeTarget "SwiftIndiaAuth" */;
 			buildPhases = (
+				AB142AA870C6C4E862F580EA /* [CP] Check Pods Manifest.lock */,
 				42F6CC1B22E4F8EA0018796A /* Headers */,
 				42F6CC1C22E4F8EA0018796A /* Sources */,
 				42F6CC1D22E4F8EA0018796A /* Frameworks */,
@@ -128,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42F6CC3722E4F8EA0018796A /* Build configuration list for PBXNativeTarget "SwiftIndiaAuthTests" */;
 			buildPhases = (
+				3BB44E9BA343F279E2E86F5D /* [CP] Check Pods Manifest.lock */,
 				42F6CC2522E4F8EA0018796A /* Sources */,
 				42F6CC2622E4F8EA0018796A /* Frameworks */,
 				42F6CC2722E4F8EA0018796A /* Resources */,
+				0194834E1A19B3F111AD0638 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,6 +232,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0194834E1A19B3F111AD0638 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftIndiaAuthTests/Pods-SwiftIndiaAuthTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftIndiaAuthTests/Pods-SwiftIndiaAuthTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftIndiaAuthTests/Pods-SwiftIndiaAuthTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BB44E9BA343F279E2E86F5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftIndiaAuthTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB142AA870C6C4E862F580EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftIndiaAuth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		42F6CC1C22E4F8EA0018796A /* Sources */ = {
@@ -348,6 +448,7 @@
 		};
 		42F6CC3522E4F8EA0018796A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABD395F782963672C9AEF74E /* Pods-SwiftIndiaAuth.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -375,6 +476,7 @@
 		};
 		42F6CC3622E4F8EA0018796A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C77D9F6CD7DBECB0CEB21347 /* Pods-SwiftIndiaAuth.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -401,6 +503,7 @@
 		};
 		42F6CC3822E4F8EA0018796A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C43463281AD703B945D66AC4 /* Pods-SwiftIndiaAuthTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -420,6 +523,7 @@
 		};
 		42F6CC3922E4F8EA0018796A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 341E5273618E132CAF6C7B06 /* Pods-SwiftIndiaAuthTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
