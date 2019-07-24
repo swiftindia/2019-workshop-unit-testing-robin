@@ -12,34 +12,41 @@ struct Request {
 
 	enum Method {
 		case get
-		case post
 
 		func string() -> String {
 			switch self {
 			case .get:
 				return "GET"
-			case .post:
-				return "POST"
 			}
 		}
 	}
 
 	let method: Method
+	let endpoint: Endpoint
 
-	init(method: Method) {
+	init(method: Method,
+		endpoint: Endpoint) {
 		self.method = method
+		self.endpoint = endpoint
 	}
 
 	func toURLRequest() throws -> URLRequest {
-		var request = URLRequest(url: URL(string: "https://google.com")!)
+		guard let url = endpoint.url else {
+			throw Endpoint.EndpointError.invalidURL(endpoint)
+		}
+		var request = URLRequest(url: url)
 		request.httpMethod = self.method.string()
 		return request
 	}
 }
 
-public struct Endpoint {
+public struct Endpoint: Equatable {
 	let path: String
 	let baseURL: String
+
+	enum EndpointError: Error {
+		case invalidURL(Endpoint)
+	}
 
 	public var url: URL? {
 		var components = URLComponents()
@@ -56,3 +63,6 @@ enum Auth {
 		return Endpoint(path: "/oauth/token", baseURL: baseURL)
 	}
 }
+
+
+
