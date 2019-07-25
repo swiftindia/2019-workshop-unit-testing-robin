@@ -64,7 +64,6 @@ class MakeRequestTests: XCTestCase {
 		let decoder = JSONDecoder.init()
 		decoder.keyDecodingStrategy = .convertFromSnakeCase
 
-		print(String.init(data: request.httpBody!, encoding: .utf8))
 		do {
 			let receivedInputs = try decoder.decode(Auth.Login.Inputs.self, from: request.httpBody!)
 			XCTAssertEqual(receivedInputs, inputs)

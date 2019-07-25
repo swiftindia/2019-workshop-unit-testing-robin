@@ -3,11 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		309769667A96B51E7285348C /* Pods_SwiftIndiaAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A90A2DD99477C491774F22DD /* Pods_SwiftIndiaAuth.framework */; };
+		4217818122EA20DD00D8FD34 /* TokenStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4217818022EA20DD00D8FD34 /* TokenStorage.swift */; };
+		421EB4C822EA287E00B35993 /* DictionaryTokenStorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421EB4C722EA287E00B35993 /* DictionaryTokenStorageTests.swift */; };
 		42F6CC2A22E4F8EA0018796A /* SwiftIndiaAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F6CC2022E4F8EA0018796A /* SwiftIndiaAuth.framework */; };
 		42F6CC2F22E4F8EA0018796A /* SwiftIndiaAuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F6CC2E22E4F8EA0018796A /* SwiftIndiaAuthTests.swift */; };
 		42F6CC3122E4F8EA0018796A /* SwiftIndiaAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 42F6CC2322E4F8EA0018796A /* SwiftIndiaAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -28,6 +30,8 @@
 
 /* Begin PBXFileReference section */
 		341E5273618E132CAF6C7B06 /* Pods-SwiftIndiaAuthTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftIndiaAuthTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftIndiaAuthTests/Pods-SwiftIndiaAuthTests.release.xcconfig"; sourceTree = "<group>"; };
+		4217818022EA20DD00D8FD34 /* TokenStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenStorage.swift; sourceTree = "<group>"; };
+		421EB4C722EA287E00B35993 /* DictionaryTokenStorageTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryTokenStorageTests.swift; sourceTree = "<group>"; };
 		42F6CC2022E4F8EA0018796A /* SwiftIndiaAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftIndiaAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42F6CC2322E4F8EA0018796A /* SwiftIndiaAuth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftIndiaAuth.h; sourceTree = "<group>"; };
 		42F6CC2422E4F8EA0018796A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,6 +100,7 @@
 		42F6CC2222E4F8EA0018796A /* SwiftIndiaAuth */ = {
 			isa = PBXGroup;
 			children = (
+				4217818022EA20DD00D8FD34 /* TokenStorage.swift */,
 				42F6CC3A22E4F93B0018796A /* Method.swift */,
 				42F6CC2322E4F8EA0018796A /* SwiftIndiaAuth.h */,
 				42F6CC2422E4F8EA0018796A /* Info.plist */,
@@ -106,6 +111,7 @@
 		42F6CC2D22E4F8EA0018796A /* SwiftIndiaAuthTests */ = {
 			isa = PBXGroup;
 			children = (
+				421EB4C722EA287E00B35993 /* DictionaryTokenStorageTests.swift */,
 				42F6CC2E22E4F8EA0018796A /* SwiftIndiaAuthTests.swift */,
 				42F6CC3C22E4FB4B0018796A /* MakeRequestTests.swift */,
 				42F6CC3022E4F8EA0018796A /* Info.plist */,
@@ -121,7 +127,6 @@
 				C43463281AD703B945D66AC4 /* Pods-SwiftIndiaAuthTests.debug.xcconfig */,
 				341E5273618E132CAF6C7B06 /* Pods-SwiftIndiaAuthTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -303,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42F6CC3B22E4F93B0018796A /* Method.swift in Sources */,
+				4217818122EA20DD00D8FD34 /* TokenStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +318,7 @@
 			files = (
 				42F6CC2F22E4F8EA0018796A /* SwiftIndiaAuthTests.swift in Sources */,
 				42F6CC3D22E4FB4B0018796A /* MakeRequestTests.swift in Sources */,
+				421EB4C822EA287E00B35993 /* DictionaryTokenStorageTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
