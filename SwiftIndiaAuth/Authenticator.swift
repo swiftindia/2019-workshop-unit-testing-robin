@@ -14,14 +14,16 @@ public protocol HeaderMutating {
 
 protocol RequestAuthenticator {
 	associatedtype Request: HeaderMutating
-	func addAuthentication(to request: Request, completion: (Result<Request, TokenStorageError>) -> Void)
+	func addAuthentication(to request: Request) -> (Result<Request, TokenStorageError>)
 }
 
-struct RefreshTokens {
+typealias Handler = (Result<AuthTokens, Error>) -> Void
+
+struct RefreshedTokens: Codable {
 	let accessToken: String
 }
 protocol TokenRefresher {
-	func refreshTokens(completion: @escaping (Result<RefreshTokens, Error>) -> Void)
+	func performRefresh(with inputs: Auth.Refresh.Inputs, then handler: @escaping Handler)
 }
 
 extension URLRequest: HeaderMutating {
@@ -37,15 +39,15 @@ extension URLRequest: HeaderMutating {
 typealias AuthenticationLayer = RequestAuthenticator & TokenRefresher
 
 class Authenticator<Request: HeaderMutating>: AuthenticationLayer {
+
 	let tokenStorage: TokenStorage
 	let tokenID: String
 	let baseURL: String
 	let networking: RequestLoading
 	let lock = NSLock()
-
-	public typealias Handler = (Result<AuthTokens, Error>) -> Void
 	private let queue: DispatchQueue
 	private var pendingHandlers: [Handler] = []
+	let jsonDecoder = JSONDecoder()
 
 	public init(tokenID: String, baseURL: String, tokenStorage: TokenStorage, accessQueue: DispatchQueue = .init(label: "AuthTokens Refresh"), requestLoader: @escaping RequestLoading) {
 		self.tokenID = tokenID
@@ -53,6 +55,8 @@ class Authenticator<Request: HeaderMutating>: AuthenticationLayer {
 		self.baseURL = baseURL
 		self.networking = requestLoader
 		self.queue = accessQueue
+
+		self.jsonDecoder.keyDecodingStrategy = .convertFromSnakeCase
 	}
 
 	func addAuthentication(to request: Request) -> (Result<Request, TokenStorageError>) {
@@ -69,18 +73,57 @@ class Authenticator<Request: HeaderMutating>: AuthenticationLayer {
 		}
 	}
 
-	func refreshTokens(completion: @escaping (Result<RefreshTokens, Error>) -> Void) {
+	func refreshTokens(inputs: Auth.Refresh.Inputs, completion: @escaping (Result<AuthTokens, Error>) -> Void) {
 		let tokenStorage = self.tokenStorage
 		let tokenID = self.tokenID
-		queue.async { [weak self]
+
+		queue.async { [weak self] in
 			let result = tokenStorage.get(with: tokenID)
 			switch result {
-			case .success(let tokens):
-				
+			case .success:
+				self?.performRefresh(with: inputs, then: completion)
 			case .failure(let error):
 				completion(.failure(error))
 			}
 		}
+	}
+
+	func performRefresh(with inputs: Auth.Refresh.Inputs, then handler: @escaping Handler) {
+		pendingHandlers.append(handler)
+
+		guard pendingHandlers.count == 1 else {
+			return
+		}
+		let tokenStorage = self.tokenStorage
+		let tokenID = self.tokenID
+		let jsonDecoder = self.jsonDecoder
+
+		networking(Auth.Refresh.tokenRequest(with: baseURL, inputs: inputs), { (result) in
+			switch result {
+			case .success(let data,_):
+				do {
+					let newAuthToken = try jsonDecoder.decode(RefreshedTokens.self, from: data)
+					let newTokens = AuthTokens(accessToken: newAuthToken.accessToken, refreshToken: inputs.refreshToken)
+					let saveResult = tokenStorage.set(tokens: newTokens, with: tokenID)
+					switch saveResult {
+					case .success:
+						self.handle(.success(newTokens))
+					case .failure(let error):
+						self.handle(.failure(error))
+					}
+				} catch {
+					self.handle(.failure(error))
+				}
+			case .failure(let error):
+				self.handle(.failure(error))
+			}
+		})
+	}
+
+	func handle(_ result: Result<AuthTokens, Error>) {
+		let handlers = self.pendingHandlers
+		pendingHandlers = []
+		handlers.forEach{ $0(result) }
 	}
 }
 

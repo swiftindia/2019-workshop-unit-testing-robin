@@ -80,7 +80,7 @@ enum Auth {
 
 	struct Login {
 		static func tokenRequest(with baseURL: String, inputs: Inputs) -> Request {
-			return Request(method: .get, endpoint: Auth.tokenEndpoint(with: baseURL), headers: [:], body: inputs)
+			return Request(method: .get, endpoint: Auth.tokenEndpoint(with: baseURL), body: inputs)
 		}
 
 		struct Inputs: Codable, Equatable, DataConvertible {
@@ -107,6 +107,25 @@ enum Auth {
 				return try encoder.encode(self)
 			}
 
+		}
+	}
+
+	struct Refresh {
+		static func tokenRequest(with baseURL: String, inputs: Inputs) -> Request {
+			return Request(method: .get, endpoint: Auth.tokenEndpoint(with: baseURL), body: inputs)
+		}
+
+		struct Inputs: Codable, Equatable, DataConvertible {
+			let refreshToken: String
+
+			let grantType = "refresh"
+			let scope = "refresh_token"
+
+			func toData() throws -> Data {
+				let encoder = JSONEncoder()
+				encoder.keyEncodingStrategy = .convertToSnakeCase
+				return try encoder.encode(self)
+			}
 		}
 	}
 }
