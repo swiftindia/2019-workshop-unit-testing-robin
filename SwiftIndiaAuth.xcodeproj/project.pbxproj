@@ -14,6 +14,7 @@
 		42643D2222EA419F00D81B3B /* LoginAPIClients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42643D2122EA419F00D81B3B /* LoginAPIClients.swift */; };
 		42643D2422EA43DD00D81B3B /* ValidAccessToken.json in Resources */ = {isa = PBXBuildFile; fileRef = 42643D2322EA43DD00D81B3B /* ValidAccessToken.json */; };
 		42643D2622EA4AD000D81B3B /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42643D2522EA4AD000D81B3B /* Authenticator.swift */; };
+		42643D2822EB677A00D81B3B /* AuthenticatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42643D2722EB677A00D81B3B /* AuthenticatorTests.swift */; };
 		42F6CC2A22E4F8EA0018796A /* SwiftIndiaAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F6CC2022E4F8EA0018796A /* SwiftIndiaAuth.framework */; };
 		42F6CC2F22E4F8EA0018796A /* SwiftIndiaAuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F6CC2E22E4F8EA0018796A /* SwiftIndiaAuthTests.swift */; };
 		42F6CC3122E4F8EA0018796A /* SwiftIndiaAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 42F6CC2322E4F8EA0018796A /* SwiftIndiaAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -40,6 +41,7 @@
 		42643D2122EA419F00D81B3B /* LoginAPIClients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAPIClients.swift; sourceTree = "<group>"; };
 		42643D2322EA43DD00D81B3B /* ValidAccessToken.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ValidAccessToken.json; sourceTree = "<group>"; };
 		42643D2522EA4AD000D81B3B /* Authenticator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authenticator.swift; sourceTree = "<group>"; };
+		42643D2722EB677A00D81B3B /* AuthenticatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatorTests.swift; sourceTree = "<group>"; };
 		42F6CC2022E4F8EA0018796A /* SwiftIndiaAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftIndiaAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42F6CC2322E4F8EA0018796A /* SwiftIndiaAuth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftIndiaAuth.h; sourceTree = "<group>"; };
 		42F6CC2422E4F8EA0018796A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				421EB4C722EA287E00B35993 /* DictionaryTokenStorageTests.swift */,
 				42F6CC2E22E4F8EA0018796A /* SwiftIndiaAuthTests.swift */,
 				42F6CC3C22E4FB4B0018796A /* MakeRequestTests.swift */,
+				42643D2722EB677A00D81B3B /* AuthenticatorTests.swift */,
 				42F6CC3022E4F8EA0018796A /* Info.plist */,
 			);
 			path = SwiftIndiaAuthTests;
@@ -334,6 +337,7 @@
 				42F6CC2F22E4F8EA0018796A /* SwiftIndiaAuthTests.swift in Sources */,
 				42643D2222EA419F00D81B3B /* LoginAPIClients.swift in Sources */,
 				42F6CC3D22E4FB4B0018796A /* MakeRequestTests.swift in Sources */,
+				42643D2822EB677A00D81B3B /* AuthenticatorTests.swift in Sources */,
 				421EB4C822EA287E00B35993 /* DictionaryTokenStorageTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
