@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import TokenStorage
 
 public protocol HeaderMutating {
 	func addHeaders(_ headers: [String: String]) -> Self

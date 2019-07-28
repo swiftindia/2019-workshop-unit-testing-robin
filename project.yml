@@ -1,0 +1,56 @@
+name: SwiftIndiaAuth
+options:
+  deploymentTarget:
+    macOS: 10.13
+    iOS: 10.0
+targets:
+  TokenStorage:
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.rmalhotra.tokenstorage
+    type: framework
+    platform: [iOS, macOS]
+    sources: TokenStorage
+    info:
+      path: TokenStorage/Info.plist
+    scheme:
+      gatherCoverageData: true
+      testTargets:
+        - name: TokenStorageTests_${platform}
+          parallelizable: true
+          randomExecutionOrder: true
+
+  TokenStorageTests:
+    type: bundle.unit-test
+    platform: [iOS, macOS]
+    sources: TokenStorageTests
+    info:
+      path: TokenStorageTests/Info.plist
+    dependencies:
+      - target: TokenStorage_${platform}
+  SwiftIndiaAuth:
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.rmalhotra.swiftindiauth
+    type: framework
+    platform: [iOS, macOS]
+    sources: SwiftIndiaAuth
+    info:
+      path: SwiftIndiaAuth/Info.plist
+    dependencies:
+      - target: TokenStorage_${platform}
+    scheme:
+      gatherCoverageData: true
+      testTargets:
+        - name: SwiftIndiaAuthTests_${platform}
+          parallelizable: true
+          randomExecutionOrder: true
+  SwiftIndiaAuthTests:
+    type: bundle.unit-test
+    platform: [iOS, macOS]
+    sources: SwiftIndiaAuthTests
+    info:
+      path: SwiftIndiaAuthTests/Info.plist
+    dependencies:
+      - target: SwiftIndiaAuth_${platform}
+      - target: TokenStorage_${platform}

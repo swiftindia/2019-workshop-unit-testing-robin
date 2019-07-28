@@ -8,6 +8,7 @@
 
 import XCTest
 @testable import SwiftIndiaAuth
+@testable import TokenStorage
 
 /**
 An integration test to make sure token refreshes work the way they should. Tests for the following behaviours:

@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import TokenStorage
 
 typealias RequestLoadingResult = Result<(Data,HTTPURLResponse), Error>
 typealias RequestLoading = (Request, @escaping (RequestLoadingResult) -> Void) -> Void

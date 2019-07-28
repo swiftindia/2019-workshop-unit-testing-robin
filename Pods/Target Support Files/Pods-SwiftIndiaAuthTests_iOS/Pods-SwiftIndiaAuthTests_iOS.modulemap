@@ -1,0 +1,6 @@
+framework module Pods_SwiftIndiaAuthTests_iOS {
+  umbrella header "Pods-SwiftIndiaAuthTests_iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

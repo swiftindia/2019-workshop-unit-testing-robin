@@ -1,0 +1,6 @@
+osx_image: xcode10.2
+before_install:
+  - bundle install
+  - pod install
+script:
+  - alex README.md

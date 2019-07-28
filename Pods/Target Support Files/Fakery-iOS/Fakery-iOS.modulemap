@@ -1,0 +1,6 @@
+framework module Fakery {
+  umbrella header "Fakery-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

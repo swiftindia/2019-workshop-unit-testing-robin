@@ -9,9 +9,9 @@
 import XCTest
 import Fakery
 @testable import SwiftIndiaAuth
+@testable import TokenStorage
 
 class DictionaryTokenStorageTests: XCTestCase {
-
 	let dictStorage = DictionaryTokenStorage()
 	let faker = Faker()
 

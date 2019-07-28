@@ -3,471 +3,764 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		009602FF2F84328E920C6A514823FBC0 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A522A2D60567E5758EFF9AE3797FF74 /* Config.swift */; };
-		0293246CED8546EC75F3C6D0128D2966 /* Lorem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9DA46FAF5A42B8484ECE926B9991D1 /* Lorem.swift */; };
-		038D3870B38B918531E0F552CEC35EF6 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A25BA42D3C0F10C824F25D2C3633513 /* Team.swift */; };
-		0440D5404701DBB6C938905A6E8D0B0F /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC4041D04CA1F585E374DBD9FA7020 /* Provider.swift */; };
-		04A76B3A6B66418DC2706A9187D90812 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		09C16AEF0FFD66D97C860C3014B96DA8 /* Pods-SwiftIndiaAuth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF8881D287FD0CCA0B131A55A12A043 /* Pods-SwiftIndiaAuth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0EC047BB454BFCD269D9055D2DEC6130 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88213F2D63FBFB8CE192973209316B56 /* Business.swift */; };
-		15990CFCE9E91359A7CA0DE04EC85563 /* nl.json in Resources */ = {isa = PBXBuildFile; fileRef = 23353A1D13E974A1D810BF9800158BA2 /* nl.json */; };
-		19D60A3782D6C4987B59AE18E6310FB5 /* ja.json in Resources */ = {isa = PBXBuildFile; fileRef = F403038C5B805E2E2BA2CE4C9E255D8C /* ja.json */; };
-		1EDC7BE6B545E9566E5691654013405E /* pl.json in Resources */ = {isa = PBXBuildFile; fileRef = 72FE50F57E1432EE9B17A2AD6717ADB5 /* pl.json */; };
-		2DDD7D8080A44767D6C248059622399C /* fa.json in Resources */ = {isa = PBXBuildFile; fileRef = 7F777B0D051695A34528D3E717B449F2 /* fa.json */; };
-		313A58FE8D1FBF58AFDF143742BBB9DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		31761BBA8E21E826583740663E275262 /* de-CH.json in Resources */ = {isa = PBXBuildFile; fileRef = 07B257E98D5AF23C7104E233628FE5FB /* de-CH.json */; };
-		330D81531C9F9582F640989A0990517F /* Faker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FA0423FA7143F80702105E8B4DC132 /* Faker.swift */; };
-		33D55AE52521FA685AED0A0BFA3B4930 /* Commerce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC6517055C0C9B4F63E0F47F20D2E64 /* Commerce.swift */; };
-		35BC1A246B3E48DCCA8AF5AEBAF4F1D4 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED47F8AE5D12391E0608934D24A8A614 /* Company.swift */; };
-		3ED72BDCA74D42119CA18A8778777E71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		3FEE0A0D447316FC5E57CCD5E5AD4640 /* ru.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B7249DAE6A7B659E584D521E6CEFC57 /* ru.json */; };
-		40AA405515B221F33FAD91531469DB30 /* Faker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 83F6F856CA9ED2D7CC3546CCA6DCC86C /* Faker.bundle */; };
-		4509E7A96C6BA62A1281FB2F67BDE211 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2499AD3C6D5234C3A1D70B2251B494D /* App.swift */; };
-		4649690AF16E6C1BAA32B790F7346B39 /* Pods-SwiftIndiaAuthTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C4C26FD160233F30A464283C593F56 /* Pods-SwiftIndiaAuthTests-dummy.m */; };
-		4871240F7D9477F394EA39DBC62608FB /* en-IND.json in Resources */ = {isa = PBXBuildFile; fileRef = 3276FDD09C9EDACCACBF7221E7408852 /* en-IND.json */; };
-		4A7ADC02B803CD3C64B7B048C1FC176B /* fr.json in Resources */ = {isa = PBXBuildFile; fileRef = 110AE3063B786D03E96EB55602E34B3F /* fr.json */; };
-		4C3DC62637C8B5F12EAD5C0AA54E8856 /* sv.json in Resources */ = {isa = PBXBuildFile; fileRef = BF15953F153CE3B40AAC9B08E6C766D0 /* sv.json */; };
-		4DA1FA53616B2EB1B114361C71D505DC /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251A21067E85B5BD020CF0E996A78C2 /* Name.swift */; };
-		4E0DA611A1A07BD82959E42E3DAB90F0 /* en-TEST.json in Resources */ = {isa = PBXBuildFile; fileRef = 9AD91F2CF101A8A211775B75B172C855 /* en-TEST.json */; };
-		4F836CC9B8CA6D679C81623855C5446E /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F20160C6E5B5D4E69B9F381B006A2E6 /* Number.swift */; };
-		4FF143E7F99A31F149282F207FB544B5 /* de-AT.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A809C660C31BF2F65712B3EFDFB974D /* de-AT.json */; };
-		515369E31FAC6D195BA58F8E63DC417D /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A649ACE63309DAD599BC177B6157082 /* Bank.swift */; };
-		58EE0255F829A5B15A555FA21CD59A62 /* en-AU.json in Resources */ = {isa = PBXBuildFile; fileRef = B1B5F163C6BABEA664E44EC3A9518B97 /* en-AU.json */; };
-		5A177120A5D145CF477FDC30056C9BDA /* en.json in Resources */ = {isa = PBXBuildFile; fileRef = 69DA5C68031222F533D987F4AEBAF1FD /* en.json */; };
-		5B00BEEBA9911A7F25AF3C8ADE01C97F /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E6B912834C6901069032F5493B3E4F /* Address.swift */; };
-		7A79356B5A247762E595B6A2BF795D9B /* nb-NO.json in Resources */ = {isa = PBXBuildFile; fileRef = AC1CF9AB4B332792ECBD889179B48E9B /* nb-NO.json */; };
-		7F29FED5BA64F7D4BF1AB34557BC888B /* Fakery-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5047DFB82871399AC43D1824B56083EA /* Fakery-dummy.m */; };
-		7F317557E1F4F9C3AC86930CE103B12F /* Fakery-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCA3FB6C83BD8199087B4DCB76810BEA /* Fakery-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85D495E465E7ED4CD55E1829C961D7E6 /* en-US.json in Resources */ = {isa = PBXBuildFile; fileRef = 267DAE3825C6F057F1D347367C26A12F /* en-US.json */; };
-		8D5F3464464124872884FD2FC0B3BAE1 /* de.json in Resources */ = {isa = PBXBuildFile; fileRef = E96EA3FC462938F273FCBAC6AB4394AA /* de.json */; };
-		9830752EED648666800E9E11B5D02726 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3707DD73029F2449611784E81F5A080 /* Date.swift */; };
-		A78E145B586C3F44335C37A13E58D715 /* ko.json in Resources */ = {isa = PBXBuildFile; fileRef = 669BBF18B51F99121BD4E6BF8C4C801B /* ko.json */; };
-		A94B05C8F86B2E04DED237B2C0EA8FDC /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF902EEA922C7EE973CB8323AC59AED /* Parser.swift */; };
-		ABA50DC61B9601B86DD44A16DF22E5B2 /* en-GB.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F90E8C0C3491169FC20F37D66B4D0F7 /* en-GB.json */; };
-		B03EFC53D72E344C87EC9DA9D4757DDA /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59CB527460022C2308A4E18E65ACC2F /* Internet.swift */; };
-		B6044BFDD81E79BAD6B6A55588C4E868 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF665F081113177BE254AF25CD8EB36 /* ArrayExtension.swift */; };
-		BF26032A492846F51D7CE145ABFD406D /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128717B7BC804170BBC11575AA77A35A /* Generator.swift */; };
-		C26C340B7C9E21BEEC1E3CF81BE61C2A /* sk.json in Resources */ = {isa = PBXBuildFile; fileRef = A80582F8CC216535F8A51A25BFCB31BC /* sk.json */; };
-		C34D0C162D38D58DA96F7922044A32D2 /* it.json in Resources */ = {isa = PBXBuildFile; fileRef = E07EB0C38A4BE5CFCF643A8B7B41F03C /* it.json */; };
-		D228320D5990CA05093CB089346BA64A /* tr-TR.json in Resources */ = {isa = PBXBuildFile; fileRef = D71B05F66243FA5313D36B903BA6C03B /* tr-TR.json */; };
-		D41FEA46F9402B8FE318DCD93FEE505E /* Pods-SwiftIndiaAuth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E586DEAD6ED4E35BA3BFDB8770BE48 /* Pods-SwiftIndiaAuth-dummy.m */; };
-		E0FC09170E0F77A07D66F0712A0294F3 /* zh-CN.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F1CBFFF13D34E1A02343DE336795E85 /* zh-CN.json */; };
-		E2D48690FB8D2AACCE07B4A1B3876054 /* Pods-SwiftIndiaAuthTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD085C6F807BD6D8CBC4AD266E03A059 /* Pods-SwiftIndiaAuthTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC5F1844EF61DC7B3388082ED5A34D7A /* uk.json in Resources */ = {isa = PBXBuildFile; fileRef = 45F1046FF2E5D5F6A1578BFE3698B999 /* uk.json */; };
-		F05091EF126B87079668C698604CC1E3 /* en-CA.json in Resources */ = {isa = PBXBuildFile; fileRef = 052834C77DF736DC90D2CCFF1F711016 /* en-CA.json */; };
-		F185153D165F02061ACD860E4718818C /* zh-TW.json in Resources */ = {isa = PBXBuildFile; fileRef = C2286E6865209F0086E41FEB1E3673F1 /* zh-TW.json */; };
-		F319A959F11CF6222D9B67D81E836893 /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A1B9B203627583A1B38EA61D99F495 /* PhoneNumber.swift */; };
-		F5EBC094333C20CC39779E72191F4F49 /* es.json in Resources */ = {isa = PBXBuildFile; fileRef = 81B9A5758BF35115174055B2ACB59A82 /* es.json */; };
+		019F322B102314A28D774EF880576DCA /* de-AT.json in Resources */ = {isa = PBXBuildFile; fileRef = 83AE0643AB49CF0AE35CBB68D4315029 /* de-AT.json */; };
+		01B1B7E4680AA25688C7D05D0D1DDF87 /* fa.json in Resources */ = {isa = PBXBuildFile; fileRef = B63AC659B43B41812C3424E12F96B269 /* fa.json */; };
+		020A93DE56C79DDB49DE6F3696132581 /* Pods-SwiftIndiaAuthTests_iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C664F3F4F904B51ED4DA3A63D9346826 /* Pods-SwiftIndiaAuthTests_iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06017C20E571C0D0650AA28DE45DC1C4 /* Faker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981175B2FC8F62EC6B922007B6D4A945 /* Faker.swift */; };
+		06131573544983D958FFB0F1231A4DCA /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C437440061C6AA4A982018C4FDA33B97 /* Generator.swift */; };
+		0AF1E051C37D65D1A540FE6C71E8669E /* en-GB.json in Resources */ = {isa = PBXBuildFile; fileRef = 970BBBF8EF7B7B22DE720B6054675CCC /* en-GB.json */; };
+		139309069F800655A82E826F6CC52FAD /* pl.json in Resources */ = {isa = PBXBuildFile; fileRef = FACBD4A9563198250363FFEEE66D9C14 /* pl.json */; };
+		15F83772ABD4FF86252AD4F1C0C1105F /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C53FA56D8FF9FC14900EAEB1908C1 /* Address.swift */; };
+		1B131A653A5C64D3BEBA98BB4532DB23 /* de-AT.json in Resources */ = {isa = PBXBuildFile; fileRef = 83AE0643AB49CF0AE35CBB68D4315029 /* de-AT.json */; };
+		1E93E177BEE5C26D5B6D9540444957C0 /* it.json in Resources */ = {isa = PBXBuildFile; fileRef = DE6040639C03A52DEB1D5FBEC6330576 /* it.json */; };
+		1F29AF71BDE707D58CD585826BCEDB53 /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FF8E13CC5937111E28880F30573199 /* Number.swift */; };
+		1F96AEBC0EB25E19B26BC651E6B8C71E /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8724B5D95DF87008BACBB283122E119F /* Business.swift */; };
+		203117EE0C1F3B7124DB273F664F002F /* Faker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981175B2FC8F62EC6B922007B6D4A945 /* Faker.swift */; };
+		23EF9E33C1CB07C0AB829257BCFD5BD9 /* zh-TW.json in Resources */ = {isa = PBXBuildFile; fileRef = 22DC4657A6357A3D27847BF6CA3B39F8 /* zh-TW.json */; };
+		23FE4A539F7680F3394A04053FBE969A /* sv.json in Resources */ = {isa = PBXBuildFile; fileRef = 857CB6910A492362E12D5C30FB698EF7 /* sv.json */; };
+		286F7C4DF93AB13AEE08912E5911BC1C /* nl.json in Resources */ = {isa = PBXBuildFile; fileRef = 1865A9AD9E38AA8957C95D39CC0C842E /* nl.json */; };
+		28A6409053B455383300756BBF79CF41 /* tr-TR.json in Resources */ = {isa = PBXBuildFile; fileRef = E31D3B312E70BB7BA7B152CBEAAF74AE /* tr-TR.json */; };
+		2A8023A6CEED461AB0662D24347271A4 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8724B5D95DF87008BACBB283122E119F /* Business.swift */; };
+		2B28DA1E39C1DF18FAF498FC97DC43CD /* es.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F8A74A55FBEC0D72AE785D28B0FE751 /* es.json */; };
+		2BB7990DD17A5CF8AA7E58F1C77C968C /* de-CH.json in Resources */ = {isa = PBXBuildFile; fileRef = 33FE47DE05701E6091F43D5408624ECF /* de-CH.json */; };
+		2C9D8C89258D7480C40AB88157D45A2B /* de.json in Resources */ = {isa = PBXBuildFile; fileRef = A040093A38A9E21C1A422EB9BE27C1FB /* de.json */; };
+		2CF95555100D7F1F58A85A331A19E9F9 /* fr.json in Resources */ = {isa = PBXBuildFile; fileRef = 10FF9E198336BD516E4964DD3CD47170 /* fr.json */; };
+		2D6498CAC2719FD7549C3565F92F1B38 /* ko.json in Resources */ = {isa = PBXBuildFile; fileRef = 49F1B79B8ED5E850569C239469211371 /* ko.json */; };
+		383457FDA21F175EB83A6BD956A117C0 /* en.json in Resources */ = {isa = PBXBuildFile; fileRef = 42C6F037046E8B91041C5279EDBDC7F4 /* en.json */; };
+		3AE3DB4C314D8E95740DD3E3E9F80F0F /* zh-CN.json in Resources */ = {isa = PBXBuildFile; fileRef = A7467BC7CC87620D7A58168ED815605F /* zh-CN.json */; };
+		40513C6ACC91E733CA7E62B9D773C510 /* Pods-SwiftIndiaAuthTests_macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FC420FB35900D7C920D5FE8E9A67575 /* Pods-SwiftIndiaAuthTests_macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		410962280E88E100174337BAB4E0D812 /* Pods-SwiftIndiaAuthTests_macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C449D680C5100D3F20728CDC33C691 /* Pods-SwiftIndiaAuthTests_macOS-dummy.m */; };
+		42C8EF28242E43278CBE3C18E09E02C8 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A75390A45B096F4C939EA1182238FB /* Parser.swift */; };
+		42E5885FB4C634F0F3649A52489841B5 /* ja.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D6DA82E71254329B2222BB359B8B123 /* ja.json */; };
+		44B68CDAC11855A1F08D874944B7F6D4 /* pl.json in Resources */ = {isa = PBXBuildFile; fileRef = FACBD4A9563198250363FFEEE66D9C14 /* pl.json */; };
+		47148A47E692FFF1593AF43F1AEC8AC9 /* uk.json in Resources */ = {isa = PBXBuildFile; fileRef = 19119BEE840FA46C737E933B190B1396 /* uk.json */; };
+		47A7E60C3FE1093A80EAF3A23A26C27E /* nb-NO.json in Resources */ = {isa = PBXBuildFile; fileRef = 50A671BD88FE2A0E7763474FEBA30D16 /* nb-NO.json */; };
+		47E169974A17FC0F7B9B90751C0800B7 /* Lorem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CD9A016EA0E1444E9F9392DF9B6A24 /* Lorem.swift */; };
+		49997052AAB351A7558221C8B066E5E5 /* ru.json in Resources */ = {isa = PBXBuildFile; fileRef = 778E5C54FEB2D055C75192281FA05EC8 /* ru.json */; };
+		49FA838D2F6EB929278A41A30BF8321B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C563ACD6CD5BB1D88A869199183C2DA5 /* Foundation.framework */; };
+		4B8A21746249DE625DF6751482426020 /* en-US.json in Resources */ = {isa = PBXBuildFile; fileRef = CB3D4A17E2F5B842263F8904D5A150AA /* en-US.json */; };
+		4BB67B0431DF94F357ADA4ACE1C5DB0F /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED1C52E9ADA6573D6D3D4472DB7C225 /* PhoneNumber.swift */; };
+		4C232F322244DD9AE849F077944B4B20 /* zh-TW.json in Resources */ = {isa = PBXBuildFile; fileRef = 22DC4657A6357A3D27847BF6CA3B39F8 /* zh-TW.json */; };
+		4D0BFA10FC4BFA109231903344E7E4E1 /* nb-NO.json in Resources */ = {isa = PBXBuildFile; fileRef = 50A671BD88FE2A0E7763474FEBA30D16 /* nb-NO.json */; };
+		502A0CD9CCE4B1211EBA97DDBA888C29 /* Commerce.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8DA2AE627BE40E27D6EA583D646F1B /* Commerce.swift */; };
+		52BCED0C06C0BCB93B692365EC238B8A /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248493341130692BE9A0D8F69BAEAECC /* Bank.swift */; };
+		556688E3A893078AF72F13B352478AAF /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C437440061C6AA4A982018C4FDA33B97 /* Generator.swift */; };
+		58CF52ACB27A9F374800E75AA96C25B2 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A75390A45B096F4C939EA1182238FB /* Parser.swift */; };
+		5934B16C464CF88FEB68A18E20C5DECC /* Pods-SwiftIndiaAuthTests_iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A88DC85379C6E484DA54EE03036F1055 /* Pods-SwiftIndiaAuthTests_iOS-dummy.m */; };
+		5A48CB41ECFD6B078ECA5275D6CAD00E /* de-CH.json in Resources */ = {isa = PBXBuildFile; fileRef = 33FE47DE05701E6091F43D5408624ECF /* de-CH.json */; };
+		5A84E4D3BA82FC538429FB9616E68F4D /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88209F31E64C11538458777470B89586 /* Team.swift */; };
+		5DA9F6FE41F1F55BB8CCF0106D0D2ABA /* en.json in Resources */ = {isa = PBXBuildFile; fileRef = 42C6F037046E8B91041C5279EDBDC7F4 /* en.json */; };
+		60D1F001F61B99C5967AE267CBC36F23 /* ko.json in Resources */ = {isa = PBXBuildFile; fileRef = 49F1B79B8ED5E850569C239469211371 /* ko.json */; };
+		61F0480F1C6B1A9048656926B0092E5C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6ED10DBF43496D8C958E9CC567853 /* Cocoa.framework */; };
+		6873205842C9C16CE72B830D982BFD07 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE68DC506C64904BE9D0E05226CF11C /* Provider.swift */; };
+		68FE794D08593D4D87F6CF90BD4AB35E /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD5D6B2ADAC30371E6CF78B6FACC9E0 /* Company.swift */; };
+		6B17658BD18CD27342ABE8E238437007 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD5D6B2ADAC30371E6CF78B6FACC9E0 /* Company.swift */; };
+		6FD06C4EB09D2FA319545C6E8CDFDF6C /* en-TEST.json in Resources */ = {isa = PBXBuildFile; fileRef = B8357719FA0EF1A852934AFE2133F261 /* en-TEST.json */; };
+		71F654D1EC9E423BE4C8F4E57274D001 /* Pods-SwiftIndiaAuth_macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FACE828D680F5B89CDD3964CF628E024 /* Pods-SwiftIndiaAuth_macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7341263C46F5FAD7090BA0011774DC69 /* sk.json in Resources */ = {isa = PBXBuildFile; fileRef = CDE38B0DC56D614A003F5A4E58CF1A14 /* sk.json */; };
+		7AC116A1F8072203AA8A344DD72A3A50 /* en-CA.json in Resources */ = {isa = PBXBuildFile; fileRef = 852400BD5E0121E3D6288225263B0E69 /* en-CA.json */; };
+		865828971A34C03EC58C8FD8DE8F15CA /* sv.json in Resources */ = {isa = PBXBuildFile; fileRef = 857CB6910A492362E12D5C30FB698EF7 /* sv.json */; };
+		8E7C3853970B51BB26C22382FF607DCB /* es.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F8A74A55FBEC0D72AE785D28B0FE751 /* es.json */; };
+		8FA73CBEB1F4F2C8C868028DBE39FD6F /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E906E42AC25F81E9F2D9A58EB6747BE /* ArrayExtension.swift */; };
+		907A8DBF52FE075C65799CDCD2B57670 /* Pods-SwiftIndiaAuth_iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AADF95B8DF4CB9825FDB9670F8B28974 /* Pods-SwiftIndiaAuth_iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90BC22D4EEACA84B7A828AB1D89ED0C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35EC1B5F1F809D6BAB8BD1AEF7F944FF /* Foundation.framework */; };
+		94DDA25FAA9C8A3E3E76E9921636B7D6 /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FF8E13CC5937111E28880F30573199 /* Number.swift */; };
+		963876AC1BC8786B7159F6CAF4FA22FE /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65D189A643284C7978EF109A7EC57EE /* Config.swift */; };
+		96C4CD4B93B57AF1D6A4BF3C912BCB78 /* Fakery-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14E9AC11BF56C10DC475CE01D295E3D4 /* Fakery-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		982FD2D70C3F509C1221326A3219E02B /* ja.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D6DA82E71254329B2222BB359B8B123 /* ja.json */; };
+		9AA096DB7DE27E48F8F799B10B551560 /* zh-CN.json in Resources */ = {isa = PBXBuildFile; fileRef = A7467BC7CC87620D7A58168ED815605F /* zh-CN.json */; };
+		9B4B234F6928635DDAE482B974CB8147 /* Fakery-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEF71E79B0481999058E8076A854273 /* Fakery-macOS-dummy.m */; };
+		9D8E0897DF5E8292CE1B536CB3186F05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C563ACD6CD5BB1D88A869199183C2DA5 /* Foundation.framework */; };
+		9DA54EDC1D258C9E159BDE3ED3C52426 /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB5B0E9D92C6A1DABE4E8EF13A7F5B /* Internet.swift */; };
+		9E34CD326568CD5E1A9AB746B0473C76 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E906E42AC25F81E9F2D9A58EB6747BE /* ArrayExtension.swift */; };
+		A181E76689AD2AE865E6B75CF7C6E5F2 /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73EE2055924D3FAC16AA0893D363DC1 /* Name.swift */; };
+		A6671F127F95B5A645CBA0400E93A23B /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70C53FA56D8FF9FC14900EAEB1908C1 /* Address.swift */; };
+		AA0A65219B0BC66B726113EC15F75D4C /* en-CA.json in Resources */ = {isa = PBXBuildFile; fileRef = 852400BD5E0121E3D6288225263B0E69 /* en-CA.json */; };
+		AC3C54B959662C5B46AB74CB52E4199C /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB5B0E9D92C6A1DABE4E8EF13A7F5B /* Internet.swift */; };
+		AC456189CA96731A8996DA29FE5EF8CD /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88209F31E64C11538458777470B89586 /* Team.swift */; };
+		AD08191EBAB55A28D69C5B5C4D9F0717 /* fa.json in Resources */ = {isa = PBXBuildFile; fileRef = B63AC659B43B41812C3424E12F96B269 /* fa.json */; };
+		B0405149C9AD3AC17E02A1EC72BA3C43 /* en-IND.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D57DBE1CB7C05653C7AA394075BDAD9 /* en-IND.json */; };
+		B08D674735E0703A13F3C48597FF7CFD /* Faker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4EAB917E88501C1B32019FFBA22555C7 /* Faker.bundle */; };
+		B0AF0140F6B210E88BB7B2E13565DB6B /* Commerce.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8DA2AE627BE40E27D6EA583D646F1B /* Commerce.swift */; };
+		B4053B6F615EC87B02FBBAE1AB97E7D7 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7264F68CFF6EA7A12E4FA4DD1A2531F /* App.swift */; };
+		B44058F301F6C3966E0F90B164F17BED /* ru.json in Resources */ = {isa = PBXBuildFile; fileRef = 778E5C54FEB2D055C75192281FA05EC8 /* ru.json */; };
+		C24A7F4A564070C3834F721F2EC173C2 /* Faker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BDF90F656A4FB1D4A1B1E0A03AEF4048 /* Faker.bundle */; };
+		C3B7950B6F691CF26F4E58ACA996613B /* en-TEST.json in Resources */ = {isa = PBXBuildFile; fileRef = B8357719FA0EF1A852934AFE2133F261 /* en-TEST.json */; };
+		C45E107F2B1F21411B0F54D79E38862B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6ED10DBF43496D8C958E9CC567853 /* Cocoa.framework */; };
+		C5109510DB794A22FF822E0B27E8BF64 /* it.json in Resources */ = {isa = PBXBuildFile; fileRef = DE6040639C03A52DEB1D5FBEC6330576 /* it.json */; };
+		C7713F8D9ACCE548530633E8514E4190 /* en-AU.json in Resources */ = {isa = PBXBuildFile; fileRef = DDE87020C72EC3A53E3B378D2AD1DF92 /* en-AU.json */; };
+		C80B8D3209931CE23203B9B115EEFACB /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73EE2055924D3FAC16AA0893D363DC1 /* Name.swift */; };
+		D1B4539BEB1DD1F29C16EE736DC105ED /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6ED10DBF43496D8C958E9CC567853 /* Cocoa.framework */; };
+		D37AC480A98B0BAAEE5C82267E6450B5 /* en-GB.json in Resources */ = {isa = PBXBuildFile; fileRef = 970BBBF8EF7B7B22DE720B6054675CCC /* en-GB.json */; };
+		D3FFEBFB7D7B7D74FB98E232B46E7D67 /* de.json in Resources */ = {isa = PBXBuildFile; fileRef = A040093A38A9E21C1A422EB9BE27C1FB /* de.json */; };
+		D48C1E2FB73A40A6211AB08AAB27AD8C /* en-AU.json in Resources */ = {isa = PBXBuildFile; fileRef = DDE87020C72EC3A53E3B378D2AD1DF92 /* en-AU.json */; };
+		D61A19C086D3C7D84FF514F0E4E19C6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C563ACD6CD5BB1D88A869199183C2DA5 /* Foundation.framework */; };
+		D6E6755BE98C6F7CEFA12BF2B81FFF5B /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248493341130692BE9A0D8F69BAEAECC /* Bank.swift */; };
+		D80004CB5DD1FC053D8525B2DE924B7B /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7264F68CFF6EA7A12E4FA4DD1A2531F /* App.swift */; };
+		D91916A2BEAAC8516B6A3E2DC533BBFD /* sk.json in Resources */ = {isa = PBXBuildFile; fileRef = CDE38B0DC56D614A003F5A4E58CF1A14 /* sk.json */; };
+		DA9418D4A31E434A8310739847BC3CFA /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BA16A94393D9EE1031519510E1921A /* Date.swift */; };
+		DB4C1BB10F779784002B90469B251DDB /* en-US.json in Resources */ = {isa = PBXBuildFile; fileRef = CB3D4A17E2F5B842263F8904D5A150AA /* en-US.json */; };
+		DC75CA1C4B2CD559911C0FB4972971D2 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BA16A94393D9EE1031519510E1921A /* Date.swift */; };
+		DE0E69D95C8DEA7E423A9B80793BBF17 /* tr-TR.json in Resources */ = {isa = PBXBuildFile; fileRef = E31D3B312E70BB7BA7B152CBEAAF74AE /* tr-TR.json */; };
+		E4A9B20FF873E7CF00B4581F6835AEC4 /* Fakery-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F380B8264B50FD762AAE58BAD0E4B4 /* Fakery-iOS-dummy.m */; };
+		E6605831B1DAE297898110C75993255D /* nl.json in Resources */ = {isa = PBXBuildFile; fileRef = 1865A9AD9E38AA8957C95D39CC0C842E /* nl.json */; };
+		E6D690EB476B77B981D355C6A33C8D2E /* Pods-SwiftIndiaAuth_macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88626A550F5C8406E24D6F0527B4D0B9 /* Pods-SwiftIndiaAuth_macOS-dummy.m */; };
+		E83AB7C01E65EE84DB08A05D52C27CB1 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE68DC506C64904BE9D0E05226CF11C /* Provider.swift */; };
+		E96AC9B5079031E9FE9240CD7CC9DA79 /* Fakery-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AED59699940ECF96E25833F742AA5CD6 /* Fakery-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE9F622713A0DE3062516BCCFD972974 /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED1C52E9ADA6573D6D3D4472DB7C225 /* PhoneNumber.swift */; };
+		EF18CBA5DFD53392B7BC97D5B0CA270A /* fr.json in Resources */ = {isa = PBXBuildFile; fileRef = 10FF9E198336BD516E4964DD3CD47170 /* fr.json */; };
+		F042FEA0BBC1CE825C8AC8D01796AF4F /* Lorem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CD9A016EA0E1444E9F9392DF9B6A24 /* Lorem.swift */; };
+		F3B70BCC44CFBE6A427F5405B2F800A6 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65D189A643284C7978EF109A7EC57EE /* Config.swift */; };
+		F7CB368E5C8CF2933DC1E97779A7F9F2 /* uk.json in Resources */ = {isa = PBXBuildFile; fileRef = 19119BEE840FA46C737E933B190B1396 /* uk.json */; };
+		F8412421493970FF6C1F9F576A18C052 /* Pods-SwiftIndiaAuth_iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EBE458BBB7CB87DE4BAF8CC329E103 /* Pods-SwiftIndiaAuth_iOS-dummy.m */; };
+		FC60F5FDA8E0F285BD4C843C5F193B40 /* en-IND.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D57DBE1CB7C05653C7AA394075BDAD9 /* en-IND.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		049C2914B539E1E71497C0A83234E948 /* PBXContainerItemProxy */ = {
+		0617C0239D0D5C631C3BDE1F06BCD3E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CA49A5A3764192CBDC0B070153D00A6F;
-			remoteInfo = "Pods-SwiftIndiaAuth";
+			remoteGlobalIDString = CB199CD072AAC7177F36AB3B05EDAB26;
+			remoteInfo = "Pods-SwiftIndiaAuth_iOS";
 		};
-		8B35846FF9ED97A8260A7AC82A7B6D6D /* PBXContainerItemProxy */ = {
+		37CEA4D38D87C95EE0DD899C7631E38D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1DABA95AD7151E245831A4517CAD760C;
-			remoteInfo = "Fakery-Faker";
+			remoteGlobalIDString = 0EF0F8B4BC525D2503ED1C8504A3FC06;
+			remoteInfo = "Fakery-macOS";
 		};
-		A9670509231EFFD49AD6D741C70838C6 /* PBXContainerItemProxy */ = {
+		75E2FCF38B2B3C7687B77884C81BE3BF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0E0176CCA7C8C85C89BC1E45EA82145D;
-			remoteInfo = Fakery;
+			remoteGlobalIDString = B5D5D5CDFCAE090EAE3B90A5C8583F8B;
+			remoteInfo = "Pods-SwiftIndiaAuth_macOS";
+		};
+		76B6D07F2AB94B90A97A71EAB5C8619E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 026F41CDFC2A4EE275389E13E72B283A;
+			remoteInfo = "Fakery-iOS";
+		};
+		7D25F8A7C6973AC626C99E78F8973850 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85C3462AA09F971B597AF1CA7DDAD008;
+			remoteInfo = "Fakery-iOS-Faker";
+		};
+		9579412E7054EC48A8016E80ABDD0BB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC7F207C297B60AC18E34A13F4D1F8E2;
+			remoteInfo = "Fakery-macOS-Faker";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		052834C77DF736DC90D2CCFF1F711016 /* en-CA.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "en-CA.json"; path = "Resources/Locales/en-CA.json"; sourceTree = "<group>"; };
-		06C6FB38E54076D4F335473AB2DC8C5D /* Pods-SwiftIndiaAuth-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftIndiaAuth-acknowledgements.plist"; sourceTree = "<group>"; };
-		07B257E98D5AF23C7104E233628FE5FB /* de-CH.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "de-CH.json"; path = "Resources/Locales/de-CH.json"; sourceTree = "<group>"; };
-		110AE3063B786D03E96EB55602E34B3F /* fr.json */ = {isa = PBXFileReference; includeInIndex = 1; name = fr.json; path = Resources/Locales/fr.json; sourceTree = "<group>"; };
-		128717B7BC804170BBC11575AA77A35A /* Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Generator.swift; path = Sources/Fakery/Generators/Generator.swift; sourceTree = "<group>"; };
-		192634B29D19212FC42788E3BA2DD2CD /* Pods-SwiftIndiaAuthTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftIndiaAuthTests.release.xcconfig"; sourceTree = "<group>"; };
-		20198C359719C2AE4D4EB03FA5E28A4E /* Pods-SwiftIndiaAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftIndiaAuth.release.xcconfig"; sourceTree = "<group>"; };
-		23353A1D13E974A1D810BF9800158BA2 /* nl.json */ = {isa = PBXFileReference; includeInIndex = 1; name = nl.json; path = Resources/Locales/nl.json; sourceTree = "<group>"; };
-		25942A5A1839E4CE52FC6B73F4FF8842 /* ResourceBundle-Faker-Fakery-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Faker-Fakery-Info.plist"; sourceTree = "<group>"; };
-		267DAE3825C6F057F1D347367C26A12F /* en-US.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "en-US.json"; path = "Resources/Locales/en-US.json"; sourceTree = "<group>"; };
-		2A809C660C31BF2F65712B3EFDFB974D /* de-AT.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "de-AT.json"; path = "Resources/Locales/de-AT.json"; sourceTree = "<group>"; };
-		2E0EAB6AA2C7E67F2CFCF6FEDB19D84C /* Fakery.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Fakery.xcconfig; sourceTree = "<group>"; };
-		2F90E8C0C3491169FC20F37D66B4D0F7 /* en-GB.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "en-GB.json"; path = "Resources/Locales/en-GB.json"; sourceTree = "<group>"; };
-		2FDE416A698878E81C989897F2CEBD09 /* Pods-SwiftIndiaAuth-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftIndiaAuth-Info.plist"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3276FDD09C9EDACCACBF7221E7408852 /* en-IND.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "en-IND.json"; path = "Resources/Locales/en-IND.json"; sourceTree = "<group>"; };
-		381134A25AFCEA10E393AE17B1FE66E5 /* Pods-SwiftIndiaAuth-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftIndiaAuth-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3DC6517055C0C9B4F63E0F47F20D2E64 /* Commerce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Commerce.swift; path = Sources/Fakery/Generators/Commerce.swift; sourceTree = "<group>"; };
-		45F1046FF2E5D5F6A1578BFE3698B999 /* uk.json */ = {isa = PBXFileReference; includeInIndex = 1; name = uk.json; path = Resources/Locales/uk.json; sourceTree = "<group>"; };
-		47CBA93A498DC804713CAB4027EF0FDC /* Pods-SwiftIndiaAuthTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftIndiaAuthTests-Info.plist"; sourceTree = "<group>"; };
-		48DC4041D04CA1F585E374DBD9FA7020 /* Provider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Provider.swift; path = Sources/Fakery/Data/Provider.swift; sourceTree = "<group>"; };
-		4A25BA42D3C0F10C824F25D2C3633513 /* Team.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Team.swift; path = Sources/Fakery/Generators/Team.swift; sourceTree = "<group>"; };
-		4B7249DAE6A7B659E584D521E6CEFC57 /* ru.json */ = {isa = PBXFileReference; includeInIndex = 1; name = ru.json; path = Resources/Locales/ru.json; sourceTree = "<group>"; };
-		5047DFB82871399AC43D1824B56083EA /* Fakery-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Fakery-dummy.m"; sourceTree = "<group>"; };
-		5DB3D8BE7BECFEADBDF143F35B63667D /* Pods-SwiftIndiaAuthTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftIndiaAuthTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5F1CBFFF13D34E1A02343DE336795E85 /* zh-CN.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-CN.json"; path = "Resources/Locales/zh-CN.json"; sourceTree = "<group>"; };
-		669BBF18B51F99121BD4E6BF8C4C801B /* ko.json */ = {isa = PBXFileReference; includeInIndex = 1; name = ko.json; path = Resources/Locales/ko.json; sourceTree = "<group>"; };
-		69DA5C68031222F533D987F4AEBAF1FD /* en.json */ = {isa = PBXFileReference; includeInIndex = 1; name = en.json; path = Resources/Locales/en.json; sourceTree = "<group>"; };
-		69FBD1AB1BE1D4618131C2D46A5C32D0 /* Pods-SwiftIndiaAuthTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftIndiaAuthTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6A649ACE63309DAD599BC177B6157082 /* Bank.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bank.swift; path = Sources/Fakery/Generators/Bank.swift; sourceTree = "<group>"; };
-		71E6B912834C6901069032F5493B3E4F /* Address.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Address.swift; path = Sources/Fakery/Generators/Address.swift; sourceTree = "<group>"; };
-		72FE50F57E1432EE9B17A2AD6717ADB5 /* pl.json */ = {isa = PBXFileReference; includeInIndex = 1; name = pl.json; path = Resources/Locales/pl.json; sourceTree = "<group>"; };
-		7948D2F6D8385731B2BACF9CDBD24D28 /* Fakery-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Fakery-Info.plist"; sourceTree = "<group>"; };
-		7BF902EEA922C7EE973CB8323AC59AED /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/Fakery/Data/Parser.swift; sourceTree = "<group>"; };
-		7D7C67DBF84E7C6D679A6AA5F16F096D /* Pods-SwiftIndiaAuthTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftIndiaAuthTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7F777B0D051695A34528D3E717B449F2 /* fa.json */ = {isa = PBXFileReference; includeInIndex = 1; name = fa.json; path = Resources/Locales/fa.json; sourceTree = "<group>"; };
-		80A1B9B203627583A1B38EA61D99F495 /* PhoneNumber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumber.swift; path = Sources/Fakery/Generators/PhoneNumber.swift; sourceTree = "<group>"; };
-		81B9A5758BF35115174055B2ACB59A82 /* es.json */ = {isa = PBXFileReference; includeInIndex = 1; name = es.json; path = Resources/Locales/es.json; sourceTree = "<group>"; };
-		83F6F856CA9ED2D7CC3546CCA6DCC86C /* Faker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Faker.bundle; path = "Fakery-Faker.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		88213F2D63FBFB8CE192973209316B56 /* Business.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Business.swift; path = Sources/Fakery/Generators/Business.swift; sourceTree = "<group>"; };
-		8A522A2D60567E5758EFF9AE3797FF74 /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Config.swift; path = Sources/Fakery/Config.swift; sourceTree = "<group>"; };
-		8B63D3F9B34141F7E1C977FEA1E01142 /* Pods_SwiftIndiaAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftIndiaAuth.framework; path = "Pods-SwiftIndiaAuth.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AD91F2CF101A8A211775B75B172C855 /* en-TEST.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "en-TEST.json"; path = "Resources/Locales/en-TEST.json"; sourceTree = "<group>"; };
+		04783F5ABCE3E830F0BCF4A3D32CDA71 /* Fakery-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fakery-iOS-prefix.pch"; sourceTree = "<group>"; };
+		0BDD479D15B8B1F83E9E21AD17C842D0 /* Pods_SwiftIndiaAuth_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftIndiaAuth_iOS.framework; path = "Pods-SwiftIndiaAuth_iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C83694AB766FE73434906319B5E95AB /* Pods-SwiftIndiaAuthTests_iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftIndiaAuthTests_iOS-frameworks.sh"; sourceTree = "<group>"; };
+		0E8B1511B806E54651F0FD9C65782976 /* Pods-SwiftIndiaAuthTests_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftIndiaAuthTests_macOS.release.xcconfig"; sourceTree = "<group>"; };
+		0E906E42AC25F81E9F2D9A58EB6747BE /* ArrayExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrayExtension.swift; path = Sources/Fakery/Extensions/ArrayExtension.swift; sourceTree = "<group>"; };
+		0F8A74A55FBEC0D72AE785D28B0FE751 /* es.json */ = {isa = PBXFileReference; includeInIndex = 1; name = es.json; path = Resources/Locales/es.json; sourceTree = "<group>"; };
+		10FF9E198336BD516E4964DD3CD47170 /* fr.json */ = {isa = PBXFileReference; includeInIndex = 1; name = fr.json; path = Resources/Locales/fr.json; sourceTree = "<group>"; };
+		14E9AC11BF56C10DC475CE01D295E3D4 /* Fakery-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fakery-iOS-umbrella.h"; sourceTree = "<group>"; };
+		15929AA6C6A61DC3444CA6D1FDD40041 /* Pods-SwiftIndiaAuth_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftIndiaAuth_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		17F1BC9DD219FCE0BFEBF0D7DC4EB072 /* Fakery-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Fakery-iOS.xcconfig"; sourceTree = "<group>"; };
+		1865A9AD9E38AA8957C95D39CC0C842E /* nl.json */ = {isa = PBXFileReference; includeInIndex = 1; name = nl.json; path = Resources/Locales/nl.json; sourceTree = "<group>"; };
+		19119BEE840FA46C737E933B190B1396 /* uk.json */ = {isa = PBXFileReference; includeInIndex = 1; name = uk.json; path = Resources/Locales/uk.json; sourceTree = "<group>"; };
+		1A2AAE77756A5E6041E80AABD2936F7E /* Pods-SwiftIndiaAuthTests_macOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftIndiaAuthTests_macOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		1AC6ED10DBF43496D8C958E9CC567853 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		1FB80B89893289D7AAF08FBBCB2DCCF6 /* Pods-SwiftIndiaAuth_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftIndiaAuth_macOS.release.xcconfig"; sourceTree = "<group>"; };
+		2270D93CE90DB0529BD688A1CF25EC14 /* Pods-SwiftIndiaAuth_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftIndiaAuth_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		22DC4657A6357A3D27847BF6CA3B39F8 /* zh-TW.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-TW.json"; path = "Resources/Locales/zh-TW.json"; sourceTree = "<group>"; };
+		248493341130692BE9A0D8F69BAEAECC /* Bank.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bank.swift; path = Sources/Fakery/Generators/Bank.swift; sourceTree = "<group>"; };
+		29D5F8E03E192BE47584603067B88D9B /* Pods_SwiftIndiaAuth_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftIndiaAuth_macOS.framework; path = "Pods-SwiftIndiaAuth_macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A1B8F653D6C9EEE6C6A45E18D6BA4D2 /* Pods-SwiftIndiaAuth_macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftIndiaAuth_macOS.modulemap"; sourceTree = "<group>"; };
+		33FE47DE05701E6091F43D5408624ECF /* de-CH.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "de-CH.json"; path = "Resources/Locales/de-CH.json"; sourceTree = "<group>"; };
+		35EC1B5F1F809D6BAB8BD1AEF7F944FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3DBED6CE6A96A7A870916F17F85D6863 /* Pods-SwiftIndiaAuthTests_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftIndiaAuthTests_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		40C6BC6375EFAEA3AB81D97984BD00EF /* Pods-SwiftIndiaAuth_iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftIndiaAuth_iOS-Info.plist"; sourceTree = "<group>"; };
+		40CD9A016EA0E1444E9F9392DF9B6A24 /* Lorem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lorem.swift; path = Sources/Fakery/Generators/Lorem.swift; sourceTree = "<group>"; };
+		42C6F037046E8B91041C5279EDBDC7F4 /* en.json */ = {isa = PBXFileReference; includeInIndex = 1; name = en.json; path = Resources/Locales/en.json; sourceTree = "<group>"; };
+		459ACBE0FB55C8C01C08B6720676C122 /* Fakery-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Fakery-macOS.xcconfig"; path = "../Fakery-macOS/Fakery-macOS.xcconfig"; sourceTree = "<group>"; };
+		49F1B79B8ED5E850569C239469211371 /* ko.json */ = {isa = PBXFileReference; includeInIndex = 1; name = ko.json; path = Resources/Locales/ko.json; sourceTree = "<group>"; };
+		4BCE4A88EFB795D40DEE9028772F1BE0 /* Pods-SwiftIndiaAuthTests_iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftIndiaAuthTests_iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4EAB917E88501C1B32019FFBA22555C7 /* Faker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Faker.bundle; path = "Fakery-macOS-Faker.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A671BD88FE2A0E7763474FEBA30D16 /* nb-NO.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "nb-NO.json"; path = "Resources/Locales/nb-NO.json"; sourceTree = "<group>"; };
+		59F45AA788BB4075BF5DABD6303F2981 /* Pods-SwiftIndiaAuth_macOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftIndiaAuth_macOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5D57DBE1CB7C05653C7AA394075BDAD9 /* en-IND.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "en-IND.json"; path = "Resources/Locales/en-IND.json"; sourceTree = "<group>"; };
+		63A4472D5832F7A08C53E1CB49E520A2 /* Fakery-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Fakery-macOS-prefix.pch"; path = "../Fakery-macOS/Fakery-macOS-prefix.pch"; sourceTree = "<group>"; };
+		67EBE458BBB7CB87DE4BAF8CC329E103 /* Pods-SwiftIndiaAuth_iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftIndiaAuth_iOS-dummy.m"; sourceTree = "<group>"; };
+		6A811116B490D9C1B02A441219B919E2 /* Pods-SwiftIndiaAuthTests_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftIndiaAuthTests_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		6E3AFA8AD38980636348976EFEBF2A8D /* Pods-SwiftIndiaAuth_iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftIndiaAuth_iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		72CCAF01A76E7EB20937C3A5ECB7EBE6 /* Pods-SwiftIndiaAuthTests_macOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftIndiaAuthTests_macOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		76FF5129C475B90ED189C021709EBB46 /* Pods_SwiftIndiaAuthTests_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftIndiaAuthTests_macOS.framework; path = "Pods-SwiftIndiaAuthTests_macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		778E5C54FEB2D055C75192281FA05EC8 /* ru.json */ = {isa = PBXFileReference; includeInIndex = 1; name = ru.json; path = Resources/Locales/ru.json; sourceTree = "<group>"; };
+		7D6DA82E71254329B2222BB359B8B123 /* ja.json */ = {isa = PBXFileReference; includeInIndex = 1; name = ja.json; path = Resources/Locales/ja.json; sourceTree = "<group>"; };
+		7D9073A9B35BB00E6430859C5773AD4B /* ResourceBundle-Faker-Fakery-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Faker-Fakery-iOS-Info.plist"; sourceTree = "<group>"; };
+		7FC420FB35900D7C920D5FE8E9A67575 /* Pods-SwiftIndiaAuthTests_macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftIndiaAuthTests_macOS-umbrella.h"; sourceTree = "<group>"; };
+		815F7A92B08E31B5CE077F4FD26AE406 /* Fakery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Fakery.framework; path = "Fakery-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83AE0643AB49CF0AE35CBB68D4315029 /* de-AT.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "de-AT.json"; path = "Resources/Locales/de-AT.json"; sourceTree = "<group>"; };
+		852400BD5E0121E3D6288225263B0E69 /* en-CA.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "en-CA.json"; path = "Resources/Locales/en-CA.json"; sourceTree = "<group>"; };
+		857CB6910A492362E12D5C30FB698EF7 /* sv.json */ = {isa = PBXFileReference; includeInIndex = 1; name = sv.json; path = Resources/Locales/sv.json; sourceTree = "<group>"; };
+		8724B5D95DF87008BACBB283122E119F /* Business.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Business.swift; path = Sources/Fakery/Generators/Business.swift; sourceTree = "<group>"; };
+		874B89F25A7A2A5C42E35D128A599E93 /* Pods-SwiftIndiaAuth_macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftIndiaAuth_macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		88209F31E64C11538458777470B89586 /* Team.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Team.swift; path = Sources/Fakery/Generators/Team.swift; sourceTree = "<group>"; };
+		88626A550F5C8406E24D6F0527B4D0B9 /* Pods-SwiftIndiaAuth_macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftIndiaAuth_macOS-dummy.m"; sourceTree = "<group>"; };
+		919BDD8AC3A0844F201629E231D6C495 /* Fakery-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Fakery-macOS.modulemap"; path = "../Fakery-macOS/Fakery-macOS.modulemap"; sourceTree = "<group>"; };
+		970BBBF8EF7B7B22DE720B6054675CCC /* en-GB.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "en-GB.json"; path = "Resources/Locales/en-GB.json"; sourceTree = "<group>"; };
+		981175B2FC8F62EC6B922007B6D4A945 /* Faker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Faker.swift; path = Sources/Fakery/Faker.swift; sourceTree = "<group>"; };
+		9AC3DB7421201F98140F94B2961E9514 /* Fakery-macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Fakery-macOS-Info.plist"; path = "../Fakery-macOS/Fakery-macOS-Info.plist"; sourceTree = "<group>"; };
+		9BDB5B0E9D92C6A1DABE4E8EF13A7F5B /* Internet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Internet.swift; path = Sources/Fakery/Generators/Internet.swift; sourceTree = "<group>"; };
+		9CCFA5EE84EB3B319F4BE0025B39A623 /* Pods-SwiftIndiaAuthTests_iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftIndiaAuthTests_iOS.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F20160C6E5B5D4E69B9F381B006A2E6 /* Number.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Number.swift; path = Sources/Fakery/Generators/Number.swift; sourceTree = "<group>"; };
-		9FF665F081113177BE254AF25CD8EB36 /* ArrayExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrayExtension.swift; path = Sources/Fakery/Extensions/ArrayExtension.swift; sourceTree = "<group>"; };
-		A767E4882F1D2A7C3E994A8719BB30D0 /* Pods-SwiftIndiaAuth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftIndiaAuth.modulemap"; sourceTree = "<group>"; };
-		A80582F8CC216535F8A51A25BFCB31BC /* sk.json */ = {isa = PBXFileReference; includeInIndex = 1; name = sk.json; path = Resources/Locales/sk.json; sourceTree = "<group>"; };
-		AC1CF9AB4B332792ECBD889179B48E9B /* nb-NO.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "nb-NO.json"; path = "Resources/Locales/nb-NO.json"; sourceTree = "<group>"; };
-		AC5EB880761E08C9BADAB1B89305A28E /* Pods-SwiftIndiaAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftIndiaAuth.debug.xcconfig"; sourceTree = "<group>"; };
-		AD085C6F807BD6D8CBC4AD266E03A059 /* Pods-SwiftIndiaAuthTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftIndiaAuthTests-umbrella.h"; sourceTree = "<group>"; };
-		B1B5F163C6BABEA664E44EC3A9518B97 /* en-AU.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "en-AU.json"; path = "Resources/Locales/en-AU.json"; sourceTree = "<group>"; };
-		B3707DD73029F2449611784E81F5A080 /* Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Date.swift; path = Sources/Fakery/Generators/Date.swift; sourceTree = "<group>"; };
-		B6B417A5013ED396E2F49ACD1A876FCE /* Pods-SwiftIndiaAuthTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftIndiaAuthTests.modulemap"; sourceTree = "<group>"; };
-		BCC1951FDE4F73C6825CBA7EA9A635FF /* Fakery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Fakery.framework; path = Fakery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF15953F153CE3B40AAC9B08E6C766D0 /* sv.json */ = {isa = PBXFileReference; includeInIndex = 1; name = sv.json; path = Resources/Locales/sv.json; sourceTree = "<group>"; };
-		C1ADE348E9DF3633EA54394A1E089DD2 /* Pods-SwiftIndiaAuthTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftIndiaAuthTests-frameworks.sh"; sourceTree = "<group>"; };
-		C2286E6865209F0086E41FEB1E3673F1 /* zh-TW.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-TW.json"; path = "Resources/Locales/zh-TW.json"; sourceTree = "<group>"; };
-		C59CB527460022C2308A4E18E65ACC2F /* Internet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Internet.swift; path = Sources/Fakery/Generators/Internet.swift; sourceTree = "<group>"; };
-		D251A21067E85B5BD020CF0E996A78C2 /* Name.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Name.swift; path = Sources/Fakery/Generators/Name.swift; sourceTree = "<group>"; };
-		D2C4C26FD160233F30A464283C593F56 /* Pods-SwiftIndiaAuthTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftIndiaAuthTests-dummy.m"; sourceTree = "<group>"; };
-		D71B05F66243FA5313D36B903BA6C03B /* tr-TR.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "tr-TR.json"; path = "Resources/Locales/tr-TR.json"; sourceTree = "<group>"; };
-		DC9DA46FAF5A42B8484ECE926B9991D1 /* Lorem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lorem.swift; path = Sources/Fakery/Generators/Lorem.swift; sourceTree = "<group>"; };
-		DCA3FB6C83BD8199087B4DCB76810BEA /* Fakery-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fakery-umbrella.h"; sourceTree = "<group>"; };
-		E07EB0C38A4BE5CFCF643A8B7B41F03C /* it.json */ = {isa = PBXFileReference; includeInIndex = 1; name = it.json; path = Resources/Locales/it.json; sourceTree = "<group>"; };
-		E1E586DEAD6ED4E35BA3BFDB8770BE48 /* Pods-SwiftIndiaAuth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftIndiaAuth-dummy.m"; sourceTree = "<group>"; };
-		E2499AD3C6D5234C3A1D70B2251B494D /* App.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = App.swift; path = Sources/Fakery/Generators/App.swift; sourceTree = "<group>"; };
-		E8FF29E342B4D0B4D61B2CCAF2DF7D38 /* Fakery-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fakery-prefix.pch"; sourceTree = "<group>"; };
-		E96EA3FC462938F273FCBAC6AB4394AA /* de.json */ = {isa = PBXFileReference; includeInIndex = 1; name = de.json; path = Resources/Locales/de.json; sourceTree = "<group>"; };
-		EAAADE1438FC71AAE1AACDD200235C71 /* Pods_SwiftIndiaAuthTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftIndiaAuthTests.framework; path = "Pods-SwiftIndiaAuthTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAF8881D287FD0CCA0B131A55A12A043 /* Pods-SwiftIndiaAuth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftIndiaAuth-umbrella.h"; sourceTree = "<group>"; };
-		ECA76DA5F1DEC6F8F3B556993A0A2FB4 /* Fakery.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Fakery.modulemap; sourceTree = "<group>"; };
-		ED47F8AE5D12391E0608934D24A8A614 /* Company.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Company.swift; path = Sources/Fakery/Generators/Company.swift; sourceTree = "<group>"; };
-		F403038C5B805E2E2BA2CE4C9E255D8C /* ja.json */ = {isa = PBXFileReference; includeInIndex = 1; name = ja.json; path = Resources/Locales/ja.json; sourceTree = "<group>"; };
-		F7FA0423FA7143F80702105E8B4DC132 /* Faker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Faker.swift; path = Sources/Fakery/Faker.swift; sourceTree = "<group>"; };
+		A040093A38A9E21C1A422EB9BE27C1FB /* de.json */ = {isa = PBXFileReference; includeInIndex = 1; name = de.json; path = Resources/Locales/de.json; sourceTree = "<group>"; };
+		A0F380B8264B50FD762AAE58BAD0E4B4 /* Fakery-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Fakery-iOS-dummy.m"; sourceTree = "<group>"; };
+		A7264F68CFF6EA7A12E4FA4DD1A2531F /* App.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = App.swift; path = Sources/Fakery/Generators/App.swift; sourceTree = "<group>"; };
+		A7467BC7CC87620D7A58168ED815605F /* zh-CN.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-CN.json"; path = "Resources/Locales/zh-CN.json"; sourceTree = "<group>"; };
+		A88DC85379C6E484DA54EE03036F1055 /* Pods-SwiftIndiaAuthTests_iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftIndiaAuthTests_iOS-dummy.m"; sourceTree = "<group>"; };
+		A94C6A4928AA5091BCA10050C770D72A /* Pods-SwiftIndiaAuthTests_macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftIndiaAuthTests_macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A96282C5DE6781B922A7080E138E75DA /* Pods-SwiftIndiaAuthTests_iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftIndiaAuthTests_iOS-Info.plist"; sourceTree = "<group>"; };
+		AADF95B8DF4CB9825FDB9670F8B28974 /* Pods-SwiftIndiaAuth_iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftIndiaAuth_iOS-umbrella.h"; sourceTree = "<group>"; };
+		AED1C52E9ADA6573D6D3D4472DB7C225 /* PhoneNumber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumber.swift; path = Sources/Fakery/Generators/PhoneNumber.swift; sourceTree = "<group>"; };
+		AED59699940ECF96E25833F742AA5CD6 /* Fakery-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Fakery-macOS-umbrella.h"; path = "../Fakery-macOS/Fakery-macOS-umbrella.h"; sourceTree = "<group>"; };
+		AF597C357CD57483F30CF27BF4D6178B /* Pods-SwiftIndiaAuth_iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftIndiaAuth_iOS.modulemap"; sourceTree = "<group>"; };
+		B3BA16A94393D9EE1031519510E1921A /* Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Date.swift; path = Sources/Fakery/Generators/Date.swift; sourceTree = "<group>"; };
+		B5A75390A45B096F4C939EA1182238FB /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/Fakery/Data/Parser.swift; sourceTree = "<group>"; };
+		B63AC659B43B41812C3424E12F96B269 /* fa.json */ = {isa = PBXFileReference; includeInIndex = 1; name = fa.json; path = Resources/Locales/fa.json; sourceTree = "<group>"; };
+		B8357719FA0EF1A852934AFE2133F261 /* en-TEST.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "en-TEST.json"; path = "Resources/Locales/en-TEST.json"; sourceTree = "<group>"; };
+		B9FF8E13CC5937111E28880F30573199 /* Number.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Number.swift; path = Sources/Fakery/Generators/Number.swift; sourceTree = "<group>"; };
+		BDF90F656A4FB1D4A1B1E0A03AEF4048 /* Faker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Faker.bundle; path = "Fakery-iOS-Faker.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C030D371CDE9FC6B7DAB4440885C5D24 /* ResourceBundle-Faker-Fakery-macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "ResourceBundle-Faker-Fakery-macOS-Info.plist"; path = "../Fakery-macOS/ResourceBundle-Faker-Fakery-macOS-Info.plist"; sourceTree = "<group>"; };
+		C154E74F468BE9FF911B44BF89DE7FF5 /* Pods-SwiftIndiaAuth_macOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftIndiaAuth_macOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		C437440061C6AA4A982018C4FDA33B97 /* Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Generator.swift; path = Sources/Fakery/Generators/Generator.swift; sourceTree = "<group>"; };
+		C563ACD6CD5BB1D88A869199183C2DA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C65D189A643284C7978EF109A7EC57EE /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Config.swift; path = Sources/Fakery/Config.swift; sourceTree = "<group>"; };
+		C664F3F4F904B51ED4DA3A63D9346826 /* Pods-SwiftIndiaAuthTests_iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftIndiaAuthTests_iOS-umbrella.h"; sourceTree = "<group>"; };
+		C70C53FA56D8FF9FC14900EAEB1908C1 /* Address.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Address.swift; path = Sources/Fakery/Generators/Address.swift; sourceTree = "<group>"; };
+		C73EE2055924D3FAC16AA0893D363DC1 /* Name.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Name.swift; path = Sources/Fakery/Generators/Name.swift; sourceTree = "<group>"; };
+		CB3D4A17E2F5B842263F8904D5A150AA /* en-US.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "en-US.json"; path = "Resources/Locales/en-US.json"; sourceTree = "<group>"; };
+		CDE38B0DC56D614A003F5A4E58CF1A14 /* sk.json */ = {isa = PBXFileReference; includeInIndex = 1; name = sk.json; path = Resources/Locales/sk.json; sourceTree = "<group>"; };
+		CF8DA2AE627BE40E27D6EA583D646F1B /* Commerce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Commerce.swift; path = Sources/Fakery/Generators/Commerce.swift; sourceTree = "<group>"; };
+		CFEF71E79B0481999058E8076A854273 /* Fakery-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Fakery-macOS-dummy.m"; path = "../Fakery-macOS/Fakery-macOS-dummy.m"; sourceTree = "<group>"; };
+		D22DE8BF8B873DC671790AD74AF53EB3 /* Pods-SwiftIndiaAuthTests_macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftIndiaAuthTests_macOS-Info.plist"; sourceTree = "<group>"; };
+		D5AB2F768D8ADA37F2F2029188FE0809 /* Pods-SwiftIndiaAuth_macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftIndiaAuth_macOS-Info.plist"; sourceTree = "<group>"; };
+		D72B19C54D94C8119CDE59CE4CD9032D /* Pods_SwiftIndiaAuthTests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftIndiaAuthTests_iOS.framework; path = "Pods-SwiftIndiaAuthTests_iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9EC392D8D37BED58DFB8D32A93A3039 /* Pods-SwiftIndiaAuthTests_macOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftIndiaAuthTests_macOS-frameworks.sh"; sourceTree = "<group>"; };
+		DAD5D6B2ADAC30371E6CF78B6FACC9E0 /* Company.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Company.swift; path = Sources/Fakery/Generators/Company.swift; sourceTree = "<group>"; };
+		DAE68DC506C64904BE9D0E05226CF11C /* Provider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Provider.swift; path = Sources/Fakery/Data/Provider.swift; sourceTree = "<group>"; };
+		DC0B08B4C26FB547899777EA335FB4C8 /* Pods-SwiftIndiaAuth_iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftIndiaAuth_iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		DDE87020C72EC3A53E3B378D2AD1DF92 /* en-AU.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "en-AU.json"; path = "Resources/Locales/en-AU.json"; sourceTree = "<group>"; };
+		DE6040639C03A52DEB1D5FBEC6330576 /* it.json */ = {isa = PBXFileReference; includeInIndex = 1; name = it.json; path = Resources/Locales/it.json; sourceTree = "<group>"; };
+		E0171E868696BCD982F3C918DD3DD59C /* Fakery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Fakery.framework; path = "Fakery-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31D3B312E70BB7BA7B152CBEAAF74AE /* tr-TR.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "tr-TR.json"; path = "Resources/Locales/tr-TR.json"; sourceTree = "<group>"; };
+		E5C449D680C5100D3F20728CDC33C691 /* Pods-SwiftIndiaAuthTests_macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftIndiaAuthTests_macOS-dummy.m"; sourceTree = "<group>"; };
+		E9EDBFBE1DED89033353B549DEBA7637 /* Pods-SwiftIndiaAuthTests_iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftIndiaAuthTests_iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		EF569C9FCB7AA6F4CB6188946F3DAC95 /* Fakery-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Fakery-iOS-Info.plist"; sourceTree = "<group>"; };
+		F21F29A9DA692587C09F3935B68C4C6D /* Fakery-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Fakery-iOS.modulemap"; sourceTree = "<group>"; };
+		FACBD4A9563198250363FFEEE66D9C14 /* pl.json */ = {isa = PBXFileReference; includeInIndex = 1; name = pl.json; path = Resources/Locales/pl.json; sourceTree = "<group>"; };
+		FACE828D680F5B89CDD3964CF628E024 /* Pods-SwiftIndiaAuth_macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftIndiaAuth_macOS-umbrella.h"; sourceTree = "<group>"; };
+		FE9D973722F29FCE07E735DF913115DB /* Pods-SwiftIndiaAuthTests_macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftIndiaAuthTests_macOS.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		236AF70EA6E274BB3E61714DFE968A5F /* Frameworks */ = {
+		0F2F943C640F798988D6DC28B4C21DBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F0480F1C6B1A9048656926B0092E5C /* Cocoa.framework in Frameworks */,
+				90BC22D4EEACA84B7A828AB1D89ED0C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147598EE61DEFDDE8625FE6351E4D62F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45E107F2B1F21411B0F54D79E38862B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2896EE101FB978513EDCB73746CB9071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61A19C086D3C7D84FF514F0E4E19C6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D8EA35499DA54CE342AAD6AC1AFA7CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1B4539BEB1DD1F29C16EE736DC105ED /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FBDF4FA48F4FE8BD51CA62C244F5ABC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3C0EC2BDB34B1F6608E02F5D35868DBA /* Frameworks */ = {
+		714A9ADCFD61DFAEFDDABDB85D45904D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ED72BDCA74D42119CA18A8778777E71 /* Foundation.framework in Frameworks */,
+				9D8E0897DF5E8292CE1B536CB3186F05 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		87995CF214CAF9A3BAD40BA6A4AF106A /* Frameworks */ = {
+		C44CAF71F68F64005EBD7A19FD41CC57 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				313A58FE8D1FBF58AFDF143742BBB9DA /* Foundation.framework in Frameworks */,
+				49FA838D2F6EB929278A41A30BF8321B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		945FB37ABFBFE8DD8E9267D30C199AB9 /* Frameworks */ = {
+		CB29F2B04B302EACD784B25BDB9D2033 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04A76B3A6B66418DC2706A9187D90812 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0049FDD91F2E42AB035A71571DFF64AD /* Support Files */ = {
+		0492881B26A0A6524CAAFAD67E1334B8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ECA76DA5F1DEC6F8F3B556993A0A2FB4 /* Fakery.modulemap */,
-				2E0EAB6AA2C7E67F2CFCF6FEDB19D84C /* Fakery.xcconfig */,
-				5047DFB82871399AC43D1824B56083EA /* Fakery-dummy.m */,
-				7948D2F6D8385731B2BACF9CDBD24D28 /* Fakery-Info.plist */,
-				E8FF29E342B4D0B4D61B2CCAF2DF7D38 /* Fakery-prefix.pch */,
-				DCA3FB6C83BD8199087B4DCB76810BEA /* Fakery-umbrella.h */,
-				25942A5A1839E4CE52FC6B73F4FF8842 /* ResourceBundle-Faker-Fakery-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Fakery";
-			sourceTree = "<group>";
-		};
-		23CBC82DCFBF621B3215C1EBFC9C197B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				83F6F856CA9ED2D7CC3546CCA6DCC86C /* Faker.bundle */,
-				BCC1951FDE4F73C6825CBA7EA9A635FF /* Fakery.framework */,
-				8B63D3F9B34141F7E1C977FEA1E01142 /* Pods_SwiftIndiaAuth.framework */,
-				EAAADE1438FC71AAE1AACDD200235C71 /* Pods_SwiftIndiaAuthTests.framework */,
+				BDF90F656A4FB1D4A1B1E0A03AEF4048 /* Faker.bundle */,
+				4EAB917E88501C1B32019FFBA22555C7 /* Faker.bundle */,
+				E0171E868696BCD982F3C918DD3DD59C /* Fakery.framework */,
+				815F7A92B08E31B5CE077F4FD26AE406 /* Fakery.framework */,
+				0BDD479D15B8B1F83E9E21AD17C842D0 /* Pods_SwiftIndiaAuth_iOS.framework */,
+				29D5F8E03E192BE47584603067B88D9B /* Pods_SwiftIndiaAuth_macOS.framework */,
+				D72B19C54D94C8119CDE59CE4CD9032D /* Pods_SwiftIndiaAuthTests_iOS.framework */,
+				76FF5129C475B90ED189C021709EBB46 /* Pods_SwiftIndiaAuthTests_macOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8FD1CD7FA2967DACB681FC74CE953CD3 /* Pods-SwiftIndiaAuthTests */ = {
+		04CD7CF20955FFD103873FCD330FFE7F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B6B417A5013ED396E2F49ACD1A876FCE /* Pods-SwiftIndiaAuthTests.modulemap */,
-				69FBD1AB1BE1D4618131C2D46A5C32D0 /* Pods-SwiftIndiaAuthTests-acknowledgements.markdown */,
-				7D7C67DBF84E7C6D679A6AA5F16F096D /* Pods-SwiftIndiaAuthTests-acknowledgements.plist */,
-				D2C4C26FD160233F30A464283C593F56 /* Pods-SwiftIndiaAuthTests-dummy.m */,
-				C1ADE348E9DF3633EA54394A1E089DD2 /* Pods-SwiftIndiaAuthTests-frameworks.sh */,
-				47CBA93A498DC804713CAB4027EF0FDC /* Pods-SwiftIndiaAuthTests-Info.plist */,
-				AD085C6F807BD6D8CBC4AD266E03A059 /* Pods-SwiftIndiaAuthTests-umbrella.h */,
-				5DB3D8BE7BECFEADBDF143F35B63667D /* Pods-SwiftIndiaAuthTests.debug.xcconfig */,
-				192634B29D19212FC42788E3BA2DD2CD /* Pods-SwiftIndiaAuthTests.release.xcconfig */,
+				F21F29A9DA692587C09F3935B68C4C6D /* Fakery-iOS.modulemap */,
+				17F1BC9DD219FCE0BFEBF0D7DC4EB072 /* Fakery-iOS.xcconfig */,
+				A0F380B8264B50FD762AAE58BAD0E4B4 /* Fakery-iOS-dummy.m */,
+				EF569C9FCB7AA6F4CB6188946F3DAC95 /* Fakery-iOS-Info.plist */,
+				04783F5ABCE3E830F0BCF4A3D32CDA71 /* Fakery-iOS-prefix.pch */,
+				14E9AC11BF56C10DC475CE01D295E3D4 /* Fakery-iOS-umbrella.h */,
+				919BDD8AC3A0844F201629E231D6C495 /* Fakery-macOS.modulemap */,
+				459ACBE0FB55C8C01C08B6720676C122 /* Fakery-macOS.xcconfig */,
+				CFEF71E79B0481999058E8076A854273 /* Fakery-macOS-dummy.m */,
+				9AC3DB7421201F98140F94B2961E9514 /* Fakery-macOS-Info.plist */,
+				63A4472D5832F7A08C53E1CB49E520A2 /* Fakery-macOS-prefix.pch */,
+				AED59699940ECF96E25833F742AA5CD6 /* Fakery-macOS-umbrella.h */,
+				7D9073A9B35BB00E6430859C5773AD4B /* ResourceBundle-Faker-Fakery-iOS-Info.plist */,
+				C030D371CDE9FC6B7DAB4440885C5D24 /* ResourceBundle-Faker-Fakery-macOS-Info.plist */,
 			);
-			name = "Pods-SwiftIndiaAuthTests";
-			path = "Target Support Files/Pods-SwiftIndiaAuthTests";
+			name = "Support Files";
+			path = "../Target Support Files/Fakery-iOS";
 			sourceTree = "<group>";
 		};
-		B5D64FBA1735557D50D1AAF7F1B02AB4 /* Pods-SwiftIndiaAuth */ = {
+		07EB285C525F897418D9A2BC34B59C51 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				A767E4882F1D2A7C3E994A8719BB30D0 /* Pods-SwiftIndiaAuth.modulemap */,
-				381134A25AFCEA10E393AE17B1FE66E5 /* Pods-SwiftIndiaAuth-acknowledgements.markdown */,
-				06C6FB38E54076D4F335473AB2DC8C5D /* Pods-SwiftIndiaAuth-acknowledgements.plist */,
-				E1E586DEAD6ED4E35BA3BFDB8770BE48 /* Pods-SwiftIndiaAuth-dummy.m */,
-				2FDE416A698878E81C989897F2CEBD09 /* Pods-SwiftIndiaAuth-Info.plist */,
-				EAF8881D287FD0CCA0B131A55A12A043 /* Pods-SwiftIndiaAuth-umbrella.h */,
-				AC5EB880761E08C9BADAB1B89305A28E /* Pods-SwiftIndiaAuth.debug.xcconfig */,
-				20198C359719C2AE4D4EB03FA5E28A4E /* Pods-SwiftIndiaAuth.release.xcconfig */,
-			);
-			name = "Pods-SwiftIndiaAuth";
-			path = "Target Support Files/Pods-SwiftIndiaAuth";
-			sourceTree = "<group>";
-		};
-		C03BCA5765EF49B5ADB53678D095CB2A /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				E96EA3FC462938F273FCBAC6AB4394AA /* de.json */,
-				2A809C660C31BF2F65712B3EFDFB974D /* de-AT.json */,
-				07B257E98D5AF23C7104E233628FE5FB /* de-CH.json */,
-				69DA5C68031222F533D987F4AEBAF1FD /* en.json */,
-				B1B5F163C6BABEA664E44EC3A9518B97 /* en-AU.json */,
-				052834C77DF736DC90D2CCFF1F711016 /* en-CA.json */,
-				2F90E8C0C3491169FC20F37D66B4D0F7 /* en-GB.json */,
-				3276FDD09C9EDACCACBF7221E7408852 /* en-IND.json */,
-				9AD91F2CF101A8A211775B75B172C855 /* en-TEST.json */,
-				267DAE3825C6F057F1D347367C26A12F /* en-US.json */,
-				81B9A5758BF35115174055B2ACB59A82 /* es.json */,
-				7F777B0D051695A34528D3E717B449F2 /* fa.json */,
-				110AE3063B786D03E96EB55602E34B3F /* fr.json */,
-				E07EB0C38A4BE5CFCF643A8B7B41F03C /* it.json */,
-				F403038C5B805E2E2BA2CE4C9E255D8C /* ja.json */,
-				669BBF18B51F99121BD4E6BF8C4C801B /* ko.json */,
-				AC1CF9AB4B332792ECBD889179B48E9B /* nb-NO.json */,
-				23353A1D13E974A1D810BF9800158BA2 /* nl.json */,
-				72FE50F57E1432EE9B17A2AD6717ADB5 /* pl.json */,
-				4B7249DAE6A7B659E584D521E6CEFC57 /* ru.json */,
-				A80582F8CC216535F8A51A25BFCB31BC /* sk.json */,
-				BF15953F153CE3B40AAC9B08E6C766D0 /* sv.json */,
-				D71B05F66243FA5313D36B903BA6C03B /* tr-TR.json */,
-				45F1046FF2E5D5F6A1578BFE3698B999 /* uk.json */,
-				5F1CBFFF13D34E1A02343DE336795E85 /* zh-CN.json */,
-				C2286E6865209F0086E41FEB1E3673F1 /* zh-TW.json */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				C563ACD6CD5BB1D88A869199183C2DA5 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		132BE6D44FEF9C1FB1F39BA103704929 /* Pods-SwiftIndiaAuthTests_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9CCFA5EE84EB3B319F4BE0025B39A623 /* Pods-SwiftIndiaAuthTests_iOS.modulemap */,
+				4BCE4A88EFB795D40DEE9028772F1BE0 /* Pods-SwiftIndiaAuthTests_iOS-acknowledgements.markdown */,
+				E9EDBFBE1DED89033353B549DEBA7637 /* Pods-SwiftIndiaAuthTests_iOS-acknowledgements.plist */,
+				A88DC85379C6E484DA54EE03036F1055 /* Pods-SwiftIndiaAuthTests_iOS-dummy.m */,
+				0C83694AB766FE73434906319B5E95AB /* Pods-SwiftIndiaAuthTests_iOS-frameworks.sh */,
+				A96282C5DE6781B922A7080E138E75DA /* Pods-SwiftIndiaAuthTests_iOS-Info.plist */,
+				C664F3F4F904B51ED4DA3A63D9346826 /* Pods-SwiftIndiaAuthTests_iOS-umbrella.h */,
+				6A811116B490D9C1B02A441219B919E2 /* Pods-SwiftIndiaAuthTests_iOS.debug.xcconfig */,
+				3DBED6CE6A96A7A870916F17F85D6863 /* Pods-SwiftIndiaAuthTests_iOS.release.xcconfig */,
+			);
+			name = "Pods-SwiftIndiaAuthTests_iOS";
+			path = "Target Support Files/Pods-SwiftIndiaAuthTests_iOS";
+			sourceTree = "<group>";
+		};
+		1BC6CCFFA6527904DE2BAA62A79D528E /* Fakery */ = {
+			isa = PBXGroup;
+			children = (
+				C70C53FA56D8FF9FC14900EAEB1908C1 /* Address.swift */,
+				A7264F68CFF6EA7A12E4FA4DD1A2531F /* App.swift */,
+				0E906E42AC25F81E9F2D9A58EB6747BE /* ArrayExtension.swift */,
+				248493341130692BE9A0D8F69BAEAECC /* Bank.swift */,
+				8724B5D95DF87008BACBB283122E119F /* Business.swift */,
+				CF8DA2AE627BE40E27D6EA583D646F1B /* Commerce.swift */,
+				DAD5D6B2ADAC30371E6CF78B6FACC9E0 /* Company.swift */,
+				C65D189A643284C7978EF109A7EC57EE /* Config.swift */,
+				B3BA16A94393D9EE1031519510E1921A /* Date.swift */,
+				981175B2FC8F62EC6B922007B6D4A945 /* Faker.swift */,
+				C437440061C6AA4A982018C4FDA33B97 /* Generator.swift */,
+				9BDB5B0E9D92C6A1DABE4E8EF13A7F5B /* Internet.swift */,
+				40CD9A016EA0E1444E9F9392DF9B6A24 /* Lorem.swift */,
+				C73EE2055924D3FAC16AA0893D363DC1 /* Name.swift */,
+				B9FF8E13CC5937111E28880F30573199 /* Number.swift */,
+				B5A75390A45B096F4C939EA1182238FB /* Parser.swift */,
+				AED1C52E9ADA6573D6D3D4472DB7C225 /* PhoneNumber.swift */,
+				DAE68DC506C64904BE9D0E05226CF11C /* Provider.swift */,
+				88209F31E64C11538458777470B89586 /* Team.swift */,
+				CB700E2ABA0AA081AFC6E80C6BA3AF9D /* Resources */,
+				04CD7CF20955FFD103873FCD330FFE7F /* Support Files */,
+			);
+			name = Fakery;
+			path = Fakery;
+			sourceTree = "<group>";
+		};
+		1E0A045559DE7CE34BFCC7DB3D021756 /* Pods-SwiftIndiaAuth_macOS */ = {
+			isa = PBXGroup;
+			children = (
+				2A1B8F653D6C9EEE6C6A45E18D6BA4D2 /* Pods-SwiftIndiaAuth_macOS.modulemap */,
+				59F45AA788BB4075BF5DABD6303F2981 /* Pods-SwiftIndiaAuth_macOS-acknowledgements.markdown */,
+				C154E74F468BE9FF911B44BF89DE7FF5 /* Pods-SwiftIndiaAuth_macOS-acknowledgements.plist */,
+				88626A550F5C8406E24D6F0527B4D0B9 /* Pods-SwiftIndiaAuth_macOS-dummy.m */,
+				D5AB2F768D8ADA37F2F2029188FE0809 /* Pods-SwiftIndiaAuth_macOS-Info.plist */,
+				FACE828D680F5B89CDD3964CF628E024 /* Pods-SwiftIndiaAuth_macOS-umbrella.h */,
+				874B89F25A7A2A5C42E35D128A599E93 /* Pods-SwiftIndiaAuth_macOS.debug.xcconfig */,
+				1FB80B89893289D7AAF08FBBCB2DCCF6 /* Pods-SwiftIndiaAuth_macOS.release.xcconfig */,
+			);
+			name = "Pods-SwiftIndiaAuth_macOS";
+			path = "Target Support Files/Pods-SwiftIndiaAuth_macOS";
+			sourceTree = "<group>";
+		};
+		41D9E1E30ADF7D5F8765C71284D069FF /* Pods-SwiftIndiaAuth_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AF597C357CD57483F30CF27BF4D6178B /* Pods-SwiftIndiaAuth_iOS.modulemap */,
+				6E3AFA8AD38980636348976EFEBF2A8D /* Pods-SwiftIndiaAuth_iOS-acknowledgements.markdown */,
+				DC0B08B4C26FB547899777EA335FB4C8 /* Pods-SwiftIndiaAuth_iOS-acknowledgements.plist */,
+				67EBE458BBB7CB87DE4BAF8CC329E103 /* Pods-SwiftIndiaAuth_iOS-dummy.m */,
+				40C6BC6375EFAEA3AB81D97984BD00EF /* Pods-SwiftIndiaAuth_iOS-Info.plist */,
+				AADF95B8DF4CB9825FDB9670F8B28974 /* Pods-SwiftIndiaAuth_iOS-umbrella.h */,
+				2270D93CE90DB0529BD688A1CF25EC14 /* Pods-SwiftIndiaAuth_iOS.debug.xcconfig */,
+				15929AA6C6A61DC3444CA6D1FDD40041 /* Pods-SwiftIndiaAuth_iOS.release.xcconfig */,
+			);
+			name = "Pods-SwiftIndiaAuth_iOS";
+			path = "Target Support Files/Pods-SwiftIndiaAuth_iOS";
+			sourceTree = "<group>";
+		};
+		5C936AA80AC5B646A2B93F671BE98365 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				1AC6ED10DBF43496D8C958E9CC567853 /* Cocoa.framework */,
+				35EC1B5F1F809D6BAB8BD1AEF7F944FF /* Foundation.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		6B841069CF50B87F7EE115DFE10FE940 /* Pods-SwiftIndiaAuthTests_macOS */ = {
+			isa = PBXGroup;
+			children = (
+				FE9D973722F29FCE07E735DF913115DB /* Pods-SwiftIndiaAuthTests_macOS.modulemap */,
+				72CCAF01A76E7EB20937C3A5ECB7EBE6 /* Pods-SwiftIndiaAuthTests_macOS-acknowledgements.markdown */,
+				1A2AAE77756A5E6041E80AABD2936F7E /* Pods-SwiftIndiaAuthTests_macOS-acknowledgements.plist */,
+				E5C449D680C5100D3F20728CDC33C691 /* Pods-SwiftIndiaAuthTests_macOS-dummy.m */,
+				D9EC392D8D37BED58DFB8D32A93A3039 /* Pods-SwiftIndiaAuthTests_macOS-frameworks.sh */,
+				D22DE8BF8B873DC671790AD74AF53EB3 /* Pods-SwiftIndiaAuthTests_macOS-Info.plist */,
+				7FC420FB35900D7C920D5FE8E9A67575 /* Pods-SwiftIndiaAuthTests_macOS-umbrella.h */,
+				A94C6A4928AA5091BCA10050C770D72A /* Pods-SwiftIndiaAuthTests_macOS.debug.xcconfig */,
+				0E8B1511B806E54651F0FD9C65782976 /* Pods-SwiftIndiaAuthTests_macOS.release.xcconfig */,
+			);
+			name = "Pods-SwiftIndiaAuthTests_macOS";
+			path = "Target Support Files/Pods-SwiftIndiaAuthTests_macOS";
+			sourceTree = "<group>";
+		};
+		8195E156A2284BF0A952B8FE527D1A59 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				41D9E1E30ADF7D5F8765C71284D069FF /* Pods-SwiftIndiaAuth_iOS */,
+				1E0A045559DE7CE34BFCC7DB3D021756 /* Pods-SwiftIndiaAuth_macOS */,
+				132BE6D44FEF9C1FB1F39BA103704929 /* Pods-SwiftIndiaAuthTests_iOS */,
+				6B841069CF50B87F7EE115DFE10FE940 /* Pods-SwiftIndiaAuthTests_macOS */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BEAF173CF7BAF5537488976CEC756DA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07EB285C525F897418D9A2BC34B59C51 /* iOS */,
+				5C936AA80AC5B646A2B93F671BE98365 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB700E2ABA0AA081AFC6E80C6BA3AF9D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A040093A38A9E21C1A422EB9BE27C1FB /* de.json */,
+				83AE0643AB49CF0AE35CBB68D4315029 /* de-AT.json */,
+				33FE47DE05701E6091F43D5408624ECF /* de-CH.json */,
+				42C6F037046E8B91041C5279EDBDC7F4 /* en.json */,
+				DDE87020C72EC3A53E3B378D2AD1DF92 /* en-AU.json */,
+				852400BD5E0121E3D6288225263B0E69 /* en-CA.json */,
+				970BBBF8EF7B7B22DE720B6054675CCC /* en-GB.json */,
+				5D57DBE1CB7C05653C7AA394075BDAD9 /* en-IND.json */,
+				B8357719FA0EF1A852934AFE2133F261 /* en-TEST.json */,
+				CB3D4A17E2F5B842263F8904D5A150AA /* en-US.json */,
+				0F8A74A55FBEC0D72AE785D28B0FE751 /* es.json */,
+				B63AC659B43B41812C3424E12F96B269 /* fa.json */,
+				10FF9E198336BD516E4964DD3CD47170 /* fr.json */,
+				DE6040639C03A52DEB1D5FBEC6330576 /* it.json */,
+				7D6DA82E71254329B2222BB359B8B123 /* ja.json */,
+				49F1B79B8ED5E850569C239469211371 /* ko.json */,
+				50A671BD88FE2A0E7763474FEBA30D16 /* nb-NO.json */,
+				1865A9AD9E38AA8957C95D39CC0C842E /* nl.json */,
+				FACBD4A9563198250363FFEEE66D9C14 /* pl.json */,
+				778E5C54FEB2D055C75192281FA05EC8 /* ru.json */,
+				CDE38B0DC56D614A003F5A4E58CF1A14 /* sk.json */,
+				857CB6910A492362E12D5C30FB698EF7 /* sv.json */,
+				E31D3B312E70BB7BA7B152CBEAAF74AE /* tr-TR.json */,
+				19119BEE840FA46C737E933B190B1396 /* uk.json */,
+				A7467BC7CC87620D7A58168ED815605F /* zh-CN.json */,
+				22DC4657A6357A3D27847BF6CA3B39F8 /* zh-TW.json */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BEAF173CF7BAF5537488976CEC756DA3 /* Frameworks */,
 				D4D4DD4051D5353550F7F4E9311C1B56 /* Pods */,
-				23CBC82DCFBF621B3215C1EBFC9C197B /* Products */,
-				D57E85C8AEC0B80A12CE32C6DB143D1B /* Targets Support Files */,
+				0492881B26A0A6524CAAFAD67E1334B8 /* Products */,
+				8195E156A2284BF0A952B8FE527D1A59 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D4D4DD4051D5353550F7F4E9311C1B56 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FB4F6F5EBC6E974745A535CFEE56DFFD /* Fakery */,
+				1BC6CCFFA6527904DE2BAA62A79D528E /* Fakery */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		D57E85C8AEC0B80A12CE32C6DB143D1B /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B5D64FBA1735557D50D1AAF7F1B02AB4 /* Pods-SwiftIndiaAuth */,
-				8FD1CD7FA2967DACB681FC74CE953CD3 /* Pods-SwiftIndiaAuthTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		FB4F6F5EBC6E974745A535CFEE56DFFD /* Fakery */ = {
-			isa = PBXGroup;
-			children = (
-				71E6B912834C6901069032F5493B3E4F /* Address.swift */,
-				E2499AD3C6D5234C3A1D70B2251B494D /* App.swift */,
-				9FF665F081113177BE254AF25CD8EB36 /* ArrayExtension.swift */,
-				6A649ACE63309DAD599BC177B6157082 /* Bank.swift */,
-				88213F2D63FBFB8CE192973209316B56 /* Business.swift */,
-				3DC6517055C0C9B4F63E0F47F20D2E64 /* Commerce.swift */,
-				ED47F8AE5D12391E0608934D24A8A614 /* Company.swift */,
-				8A522A2D60567E5758EFF9AE3797FF74 /* Config.swift */,
-				B3707DD73029F2449611784E81F5A080 /* Date.swift */,
-				F7FA0423FA7143F80702105E8B4DC132 /* Faker.swift */,
-				128717B7BC804170BBC11575AA77A35A /* Generator.swift */,
-				C59CB527460022C2308A4E18E65ACC2F /* Internet.swift */,
-				DC9DA46FAF5A42B8484ECE926B9991D1 /* Lorem.swift */,
-				D251A21067E85B5BD020CF0E996A78C2 /* Name.swift */,
-				9F20160C6E5B5D4E69B9F381B006A2E6 /* Number.swift */,
-				7BF902EEA922C7EE973CB8323AC59AED /* Parser.swift */,
-				80A1B9B203627583A1B38EA61D99F495 /* PhoneNumber.swift */,
-				48DC4041D04CA1F585E374DBD9FA7020 /* Provider.swift */,
-				4A25BA42D3C0F10C824F25D2C3633513 /* Team.swift */,
-				C03BCA5765EF49B5ADB53678D095CB2A /* Resources */,
-				0049FDD91F2E42AB035A71571DFF64AD /* Support Files */,
-			);
-			name = Fakery;
-			path = Fakery;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2A2A50908F843E45F11E7E27C7816278 /* Headers */ = {
+		2CEB09B1D922E5A7E3CFD5D5EAB42526 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09C16AEF0FFD66D97C860C3014B96DA8 /* Pods-SwiftIndiaAuth-umbrella.h in Headers */,
+				96C4CD4B93B57AF1D6A4BF3C912BCB78 /* Fakery-iOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A5EA72F79942372D7C2690DA2FAC26D /* Headers */ = {
+		538A673AFB250B204124C102C680ADE6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2D48690FB8D2AACCE07B4A1B3876054 /* Pods-SwiftIndiaAuthTests-umbrella.h in Headers */,
+				907A8DBF52FE075C65799CDCD2B57670 /* Pods-SwiftIndiaAuth_iOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F571F82ED4477ED6A47D4F4CA0C31034 /* Headers */ = {
+		57418866C182F343286B98C72ECB8F4A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F317557E1F4F9C3AC86930CE103B12F /* Fakery-umbrella.h in Headers */,
+				40513C6ACC91E733CA7E62B9D773C510 /* Pods-SwiftIndiaAuthTests_macOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C43678E9A29C515DF1E86F0BE52D10 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F654D1EC9E423BE4C8F4E57274D001 /* Pods-SwiftIndiaAuth_macOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6D69D02E55CB1ABE7461D7FAD356C4C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E96AC9B5079031E9FE9240CD7CC9DA79 /* Fakery-macOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7779D6294CA8FA32D730FA745458AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020A93DE56C79DDB49DE6F3696132581 /* Pods-SwiftIndiaAuthTests_iOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0E0176CCA7C8C85C89BC1E45EA82145D /* Fakery */ = {
+		026F41CDFC2A4EE275389E13E72B283A /* Fakery-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6330638DCE3AC258C7702CD6378C619A /* Build configuration list for PBXNativeTarget "Fakery" */;
+			buildConfigurationList = CE48EB2AA0B83A03A56BA8DE30599948 /* Build configuration list for PBXNativeTarget "Fakery-iOS" */;
 			buildPhases = (
-				F571F82ED4477ED6A47D4F4CA0C31034 /* Headers */,
-				348D7853AC87B026FD25F4C6278D9448 /* Sources */,
-				945FB37ABFBFE8DD8E9267D30C199AB9 /* Frameworks */,
-				76601D0D0F4434B22F2AF6AE92845B26 /* Resources */,
+				2CEB09B1D922E5A7E3CFD5D5EAB42526 /* Headers */,
+				80352E3FBC2DCEBA0E80E7D697546A63 /* Sources */,
+				714A9ADCFD61DFAEFDDABDB85D45904D /* Frameworks */,
+				3DD739DF142A7ED895B0D65A67DC21C8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FBFD7AD96C460071ECC46081D575357C /* PBXTargetDependency */,
+				954F7CC38321CDC1E2D5CE2D0282BCDB /* PBXTargetDependency */,
 			);
-			name = Fakery;
-			productName = Fakery;
-			productReference = BCC1951FDE4F73C6825CBA7EA9A635FF /* Fakery.framework */;
+			name = "Fakery-iOS";
+			productName = "Fakery-iOS";
+			productReference = 815F7A92B08E31B5CE077F4FD26AE406 /* Fakery.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		1DABA95AD7151E245831A4517CAD760C /* Fakery-Faker */ = {
+		0EF0F8B4BC525D2503ED1C8504A3FC06 /* Fakery-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C152C045102C940BF7957EF3C5D95A76 /* Build configuration list for PBXNativeTarget "Fakery-Faker" */;
+			buildConfigurationList = D9DD11D6ECAF686A1E7028A6B422F731 /* Build configuration list for PBXNativeTarget "Fakery-macOS" */;
 			buildPhases = (
-				9B92CE4C7917C4061B5103FD31BC0349 /* Sources */,
-				236AF70EA6E274BB3E61714DFE968A5F /* Frameworks */,
-				C3434580D46011B9604D0ACCB3BC97B0 /* Resources */,
+				C6D69D02E55CB1ABE7461D7FAD356C4C /* Headers */,
+				C4682ED8C32E937459260E2955EAF003 /* Sources */,
+				0F2F943C640F798988D6DC28B4C21DBB /* Frameworks */,
+				6367B407663D0345383AB98F08D8534D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				388DEECA967E0DBC9C385A02E329D0E3 /* PBXTargetDependency */,
+			);
+			name = "Fakery-macOS";
+			productName = "Fakery-macOS";
+			productReference = E0171E868696BCD982F3C918DD3DD59C /* Fakery.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		85C3462AA09F971B597AF1CA7DDAD008 /* Fakery-iOS-Faker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E53478D3861EA35C521C78F9C48D0B9A /* Build configuration list for PBXNativeTarget "Fakery-iOS-Faker" */;
+			buildPhases = (
+				4B4692F2FC45FBDA23ACD0F66297E1CB /* Sources */,
+				CB29F2B04B302EACD784B25BDB9D2033 /* Frameworks */,
+				3487998FD6DA3524832A669630624FF5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Fakery-Faker";
-			productName = "Fakery-Faker";
-			productReference = 83F6F856CA9ED2D7CC3546CCA6DCC86C /* Faker.bundle */;
+			name = "Fakery-iOS-Faker";
+			productName = "Fakery-iOS-Faker";
+			productReference = BDF90F656A4FB1D4A1B1E0A03AEF4048 /* Faker.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		CA49A5A3764192CBDC0B070153D00A6F /* Pods-SwiftIndiaAuth */ = {
+		A847709D22EAE782F216DC32611793DD /* Pods-SwiftIndiaAuthTests_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C5A3151CA9361E783CD4DA482ACED14A /* Build configuration list for PBXNativeTarget "Pods-SwiftIndiaAuth" */;
+			buildConfigurationList = 6D01F476C49B5D50083DFE91BE0146B5 /* Build configuration list for PBXNativeTarget "Pods-SwiftIndiaAuthTests_iOS" */;
 			buildPhases = (
-				2A2A50908F843E45F11E7E27C7816278 /* Headers */,
-				2CBBA5C04A02EDEAF8510612E45774F9 /* Sources */,
-				3C0EC2BDB34B1F6608E02F5D35868DBA /* Frameworks */,
-				3E81B6C9AE8FEFC213E848517AF2D5E7 /* Resources */,
+				CF7779D6294CA8FA32D730FA745458AD /* Headers */,
+				B81EFCFFE4D6E5ACF33C2F7777C5F093 /* Sources */,
+				2896EE101FB978513EDCB73746CB9071 /* Frameworks */,
+				E28959FE836401CD683FAD8BEFA99E18 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5E3E709C0B60EBC5B67D31A36A8AFFD0 /* PBXTargetDependency */,
+				F2ACBF94740DD5FA2A38B2BEE6E881F9 /* PBXTargetDependency */,
 			);
-			name = "Pods-SwiftIndiaAuth";
-			productName = "Pods-SwiftIndiaAuth";
-			productReference = 8B63D3F9B34141F7E1C977FEA1E01142 /* Pods_SwiftIndiaAuth.framework */;
+			name = "Pods-SwiftIndiaAuthTests_iOS";
+			productName = "Pods-SwiftIndiaAuthTests_iOS";
+			productReference = D72B19C54D94C8119CDE59CE4CD9032D /* Pods_SwiftIndiaAuthTests_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DB73453CC513B557B20710716012A854 /* Pods-SwiftIndiaAuthTests */ = {
+		B5D5D5CDFCAE090EAE3B90A5C8583F8B /* Pods-SwiftIndiaAuth_macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5E6783A153E44287EACE1BE85027841 /* Build configuration list for PBXNativeTarget "Pods-SwiftIndiaAuthTests" */;
+			buildConfigurationList = 99E3AE26053572E844EA542B60E51F92 /* Build configuration list for PBXNativeTarget "Pods-SwiftIndiaAuth_macOS" */;
 			buildPhases = (
-				8A5EA72F79942372D7C2690DA2FAC26D /* Headers */,
-				44AEBC62BDB584A18A30013F20411E60 /* Sources */,
-				87995CF214CAF9A3BAD40BA6A4AF106A /* Frameworks */,
-				3B1584A5D81B8C5556C33B4191850C82 /* Resources */,
+				60C43678E9A29C515DF1E86F0BE52D10 /* Headers */,
+				C16D8773C60EB6DD72BADC70B379B258 /* Sources */,
+				147598EE61DEFDDE8625FE6351E4D62F /* Frameworks */,
+				264228BB5D1FE4D5A46D72A2E821CE5F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				65448DFC2778803358CC49F1F0266713 /* PBXTargetDependency */,
-				5A6881A6C9B3FB0AD53551BDE79E7EE7 /* PBXTargetDependency */,
 			);
-			name = "Pods-SwiftIndiaAuthTests";
-			productName = "Pods-SwiftIndiaAuthTests";
-			productReference = EAAADE1438FC71AAE1AACDD200235C71 /* Pods_SwiftIndiaAuthTests.framework */;
+			name = "Pods-SwiftIndiaAuth_macOS";
+			productName = "Pods-SwiftIndiaAuth_macOS";
+			productReference = 29D5F8E03E192BE47584603067B88D9B /* Pods_SwiftIndiaAuth_macOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CB199CD072AAC7177F36AB3B05EDAB26 /* Pods-SwiftIndiaAuth_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5BE4BE6640F78478A2E7E6B40CDC54A /* Build configuration list for PBXNativeTarget "Pods-SwiftIndiaAuth_iOS" */;
+			buildPhases = (
+				538A673AFB250B204124C102C680ADE6 /* Headers */,
+				E9F0436120FA7C0EBE0922AAECAB425E /* Sources */,
+				C44CAF71F68F64005EBD7A19FD41CC57 /* Frameworks */,
+				2731A5E904B6A43E5D40D78B93DFD11A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SwiftIndiaAuth_iOS";
+			productName = "Pods-SwiftIndiaAuth_iOS";
+			productReference = 0BDD479D15B8B1F83E9E21AD17C842D0 /* Pods_SwiftIndiaAuth_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC7F207C297B60AC18E34A13F4D1F8E2 /* Fakery-macOS-Faker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 445C6983AA222FDF1E87AB313C0C2CE8 /* Build configuration list for PBXNativeTarget "Fakery-macOS-Faker" */;
+			buildPhases = (
+				8926519E110582AC09E8DBEAC135C934 /* Sources */,
+				4FBDF4FA48F4FE8BD51CA62C244F5ABC /* Frameworks */,
+				B61C7300D71BC03A2092FC97B93F628F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fakery-macOS-Faker";
+			productName = "Fakery-macOS-Faker";
+			productReference = 4EAB917E88501C1B32019FFBA22555C7 /* Faker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		CDF5DF52C2A111CB5FDFD92659CF3301 /* Pods-SwiftIndiaAuthTests_macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 469C51F67E2ED4323B24B69CB14037F4 /* Build configuration list for PBXNativeTarget "Pods-SwiftIndiaAuthTests_macOS" */;
+			buildPhases = (
+				57418866C182F343286B98C72ECB8F4A /* Headers */,
+				98CDBA07FA30B76F686B70CC1FCCAF4D /* Sources */,
+				4D8EA35499DA54CE342AAD6AC1AFA7CF /* Frameworks */,
+				BF275CED8C00617940E86EE24CDFAB62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D924C19A4CE6FC3BCE7FBAE2D93811C0 /* PBXTargetDependency */,
+				9B896868E959F864AE6290364EFB9226 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftIndiaAuthTests_macOS";
+			productName = "Pods-SwiftIndiaAuthTests_macOS";
+			productReference = 76FF5129C475B90ED189C021709EBB46 /* Pods_SwiftIndiaAuthTests_macOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -480,161 +773,288 @@
 				LastUpgradeCheck = 1020;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 23CBC82DCFBF621B3215C1EBFC9C197B /* Products */;
+			productRefGroup = 0492881B26A0A6524CAAFAD67E1334B8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0E0176CCA7C8C85C89BC1E45EA82145D /* Fakery */,
-				1DABA95AD7151E245831A4517CAD760C /* Fakery-Faker */,
-				CA49A5A3764192CBDC0B070153D00A6F /* Pods-SwiftIndiaAuth */,
-				DB73453CC513B557B20710716012A854 /* Pods-SwiftIndiaAuthTests */,
+				026F41CDFC2A4EE275389E13E72B283A /* Fakery-iOS */,
+				85C3462AA09F971B597AF1CA7DDAD008 /* Fakery-iOS-Faker */,
+				0EF0F8B4BC525D2503ED1C8504A3FC06 /* Fakery-macOS */,
+				CC7F207C297B60AC18E34A13F4D1F8E2 /* Fakery-macOS-Faker */,
+				CB199CD072AAC7177F36AB3B05EDAB26 /* Pods-SwiftIndiaAuth_iOS */,
+				B5D5D5CDFCAE090EAE3B90A5C8583F8B /* Pods-SwiftIndiaAuth_macOS */,
+				A847709D22EAE782F216DC32611793DD /* Pods-SwiftIndiaAuthTests_iOS */,
+				CDF5DF52C2A111CB5FDFD92659CF3301 /* Pods-SwiftIndiaAuthTests_macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3B1584A5D81B8C5556C33B4191850C82 /* Resources */ = {
+		264228BB5D1FE4D5A46D72A2E821CE5F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3E81B6C9AE8FEFC213E848517AF2D5E7 /* Resources */ = {
+		2731A5E904B6A43E5D40D78B93DFD11A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76601D0D0F4434B22F2AF6AE92845B26 /* Resources */ = {
+		3487998FD6DA3524832A669630624FF5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40AA405515B221F33FAD91531469DB30 /* Faker.bundle in Resources */,
+				1B131A653A5C64D3BEBA98BB4532DB23 /* de-AT.json in Resources */,
+				2BB7990DD17A5CF8AA7E58F1C77C968C /* de-CH.json in Resources */,
+				2C9D8C89258D7480C40AB88157D45A2B /* de.json in Resources */,
+				C7713F8D9ACCE548530633E8514E4190 /* en-AU.json in Resources */,
+				AA0A65219B0BC66B726113EC15F75D4C /* en-CA.json in Resources */,
+				0AF1E051C37D65D1A540FE6C71E8669E /* en-GB.json in Resources */,
+				FC60F5FDA8E0F285BD4C843C5F193B40 /* en-IND.json in Resources */,
+				6FD06C4EB09D2FA319545C6E8CDFDF6C /* en-TEST.json in Resources */,
+				DB4C1BB10F779784002B90469B251DDB /* en-US.json in Resources */,
+				383457FDA21F175EB83A6BD956A117C0 /* en.json in Resources */,
+				8E7C3853970B51BB26C22382FF607DCB /* es.json in Resources */,
+				AD08191EBAB55A28D69C5B5C4D9F0717 /* fa.json in Resources */,
+				EF18CBA5DFD53392B7BC97D5B0CA270A /* fr.json in Resources */,
+				1E93E177BEE5C26D5B6D9540444957C0 /* it.json in Resources */,
+				42E5885FB4C634F0F3649A52489841B5 /* ja.json in Resources */,
+				2D6498CAC2719FD7549C3565F92F1B38 /* ko.json in Resources */,
+				4D0BFA10FC4BFA109231903344E7E4E1 /* nb-NO.json in Resources */,
+				E6605831B1DAE297898110C75993255D /* nl.json in Resources */,
+				139309069F800655A82E826F6CC52FAD /* pl.json in Resources */,
+				B44058F301F6C3966E0F90B164F17BED /* ru.json in Resources */,
+				D91916A2BEAAC8516B6A3E2DC533BBFD /* sk.json in Resources */,
+				23FE4A539F7680F3394A04053FBE969A /* sv.json in Resources */,
+				28A6409053B455383300756BBF79CF41 /* tr-TR.json in Resources */,
+				47148A47E692FFF1593AF43F1AEC8AC9 /* uk.json in Resources */,
+				9AA096DB7DE27E48F8F799B10B551560 /* zh-CN.json in Resources */,
+				4C232F322244DD9AE849F077944B4B20 /* zh-TW.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3434580D46011B9604D0ACCB3BC97B0 /* Resources */ = {
+		3DD739DF142A7ED895B0D65A67DC21C8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FF143E7F99A31F149282F207FB544B5 /* de-AT.json in Resources */,
-				31761BBA8E21E826583740663E275262 /* de-CH.json in Resources */,
-				8D5F3464464124872884FD2FC0B3BAE1 /* de.json in Resources */,
-				58EE0255F829A5B15A555FA21CD59A62 /* en-AU.json in Resources */,
-				F05091EF126B87079668C698604CC1E3 /* en-CA.json in Resources */,
-				ABA50DC61B9601B86DD44A16DF22E5B2 /* en-GB.json in Resources */,
-				4871240F7D9477F394EA39DBC62608FB /* en-IND.json in Resources */,
-				4E0DA611A1A07BD82959E42E3DAB90F0 /* en-TEST.json in Resources */,
-				85D495E465E7ED4CD55E1829C961D7E6 /* en-US.json in Resources */,
-				5A177120A5D145CF477FDC30056C9BDA /* en.json in Resources */,
-				F5EBC094333C20CC39779E72191F4F49 /* es.json in Resources */,
-				2DDD7D8080A44767D6C248059622399C /* fa.json in Resources */,
-				4A7ADC02B803CD3C64B7B048C1FC176B /* fr.json in Resources */,
-				C34D0C162D38D58DA96F7922044A32D2 /* it.json in Resources */,
-				19D60A3782D6C4987B59AE18E6310FB5 /* ja.json in Resources */,
-				A78E145B586C3F44335C37A13E58D715 /* ko.json in Resources */,
-				7A79356B5A247762E595B6A2BF795D9B /* nb-NO.json in Resources */,
-				15990CFCE9E91359A7CA0DE04EC85563 /* nl.json in Resources */,
-				1EDC7BE6B545E9566E5691654013405E /* pl.json in Resources */,
-				3FEE0A0D447316FC5E57CCD5E5AD4640 /* ru.json in Resources */,
-				C26C340B7C9E21BEEC1E3CF81BE61C2A /* sk.json in Resources */,
-				4C3DC62637C8B5F12EAD5C0AA54E8856 /* sv.json in Resources */,
-				D228320D5990CA05093CB089346BA64A /* tr-TR.json in Resources */,
-				EC5F1844EF61DC7B3388082ED5A34D7A /* uk.json in Resources */,
-				E0FC09170E0F77A07D66F0712A0294F3 /* zh-CN.json in Resources */,
-				F185153D165F02061ACD860E4718818C /* zh-TW.json in Resources */,
+				C24A7F4A564070C3834F721F2EC173C2 /* Faker.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6367B407663D0345383AB98F08D8534D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08D674735E0703A13F3C48597FF7CFD /* Faker.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61C7300D71BC03A2092FC97B93F628F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019F322B102314A28D774EF880576DCA /* de-AT.json in Resources */,
+				5A48CB41ECFD6B078ECA5275D6CAD00E /* de-CH.json in Resources */,
+				D3FFEBFB7D7B7D74FB98E232B46E7D67 /* de.json in Resources */,
+				D48C1E2FB73A40A6211AB08AAB27AD8C /* en-AU.json in Resources */,
+				7AC116A1F8072203AA8A344DD72A3A50 /* en-CA.json in Resources */,
+				D37AC480A98B0BAAEE5C82267E6450B5 /* en-GB.json in Resources */,
+				B0405149C9AD3AC17E02A1EC72BA3C43 /* en-IND.json in Resources */,
+				C3B7950B6F691CF26F4E58ACA996613B /* en-TEST.json in Resources */,
+				4B8A21746249DE625DF6751482426020 /* en-US.json in Resources */,
+				5DA9F6FE41F1F55BB8CCF0106D0D2ABA /* en.json in Resources */,
+				2B28DA1E39C1DF18FAF498FC97DC43CD /* es.json in Resources */,
+				01B1B7E4680AA25688C7D05D0D1DDF87 /* fa.json in Resources */,
+				2CF95555100D7F1F58A85A331A19E9F9 /* fr.json in Resources */,
+				C5109510DB794A22FF822E0B27E8BF64 /* it.json in Resources */,
+				982FD2D70C3F509C1221326A3219E02B /* ja.json in Resources */,
+				60D1F001F61B99C5967AE267CBC36F23 /* ko.json in Resources */,
+				47A7E60C3FE1093A80EAF3A23A26C27E /* nb-NO.json in Resources */,
+				286F7C4DF93AB13AEE08912E5911BC1C /* nl.json in Resources */,
+				44B68CDAC11855A1F08D874944B7F6D4 /* pl.json in Resources */,
+				49997052AAB351A7558221C8B066E5E5 /* ru.json in Resources */,
+				7341263C46F5FAD7090BA0011774DC69 /* sk.json in Resources */,
+				865828971A34C03EC58C8FD8DE8F15CA /* sv.json in Resources */,
+				DE0E69D95C8DEA7E423A9B80793BBF17 /* tr-TR.json in Resources */,
+				F7CB368E5C8CF2933DC1E97779A7F9F2 /* uk.json in Resources */,
+				3AE3DB4C314D8E95740DD3E3E9F80F0F /* zh-CN.json in Resources */,
+				23EF9E33C1CB07C0AB829257BCFD5BD9 /* zh-TW.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF275CED8C00617940E86EE24CDFAB62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28959FE836401CD683FAD8BEFA99E18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2CBBA5C04A02EDEAF8510612E45774F9 /* Sources */ = {
+		4B4692F2FC45FBDA23ACD0F66297E1CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D41FEA46F9402B8FE318DCD93FEE505E /* Pods-SwiftIndiaAuth-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		348D7853AC87B026FD25F4C6278D9448 /* Sources */ = {
+		80352E3FBC2DCEBA0E80E7D697546A63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B00BEEBA9911A7F25AF3C8ADE01C97F /* Address.swift in Sources */,
-				4509E7A96C6BA62A1281FB2F67BDE211 /* App.swift in Sources */,
-				B6044BFDD81E79BAD6B6A55588C4E868 /* ArrayExtension.swift in Sources */,
-				515369E31FAC6D195BA58F8E63DC417D /* Bank.swift in Sources */,
-				0EC047BB454BFCD269D9055D2DEC6130 /* Business.swift in Sources */,
-				33D55AE52521FA685AED0A0BFA3B4930 /* Commerce.swift in Sources */,
-				35BC1A246B3E48DCCA8AF5AEBAF4F1D4 /* Company.swift in Sources */,
-				009602FF2F84328E920C6A514823FBC0 /* Config.swift in Sources */,
-				9830752EED648666800E9E11B5D02726 /* Date.swift in Sources */,
-				330D81531C9F9582F640989A0990517F /* Faker.swift in Sources */,
-				7F29FED5BA64F7D4BF1AB34557BC888B /* Fakery-dummy.m in Sources */,
-				BF26032A492846F51D7CE145ABFD406D /* Generator.swift in Sources */,
-				B03EFC53D72E344C87EC9DA9D4757DDA /* Internet.swift in Sources */,
-				0293246CED8546EC75F3C6D0128D2966 /* Lorem.swift in Sources */,
-				4DA1FA53616B2EB1B114361C71D505DC /* Name.swift in Sources */,
-				4F836CC9B8CA6D679C81623855C5446E /* Number.swift in Sources */,
-				A94B05C8F86B2E04DED237B2C0EA8FDC /* Parser.swift in Sources */,
-				F319A959F11CF6222D9B67D81E836893 /* PhoneNumber.swift in Sources */,
-				0440D5404701DBB6C938905A6E8D0B0F /* Provider.swift in Sources */,
-				038D3870B38B918531E0F552CEC35EF6 /* Team.swift in Sources */,
+				15F83772ABD4FF86252AD4F1C0C1105F /* Address.swift in Sources */,
+				B4053B6F615EC87B02FBBAE1AB97E7D7 /* App.swift in Sources */,
+				9E34CD326568CD5E1A9AB746B0473C76 /* ArrayExtension.swift in Sources */,
+				52BCED0C06C0BCB93B692365EC238B8A /* Bank.swift in Sources */,
+				2A8023A6CEED461AB0662D24347271A4 /* Business.swift in Sources */,
+				B0AF0140F6B210E88BB7B2E13565DB6B /* Commerce.swift in Sources */,
+				68FE794D08593D4D87F6CF90BD4AB35E /* Company.swift in Sources */,
+				963876AC1BC8786B7159F6CAF4FA22FE /* Config.swift in Sources */,
+				DA9418D4A31E434A8310739847BC3CFA /* Date.swift in Sources */,
+				06017C20E571C0D0650AA28DE45DC1C4 /* Faker.swift in Sources */,
+				E4A9B20FF873E7CF00B4581F6835AEC4 /* Fakery-iOS-dummy.m in Sources */,
+				06131573544983D958FFB0F1231A4DCA /* Generator.swift in Sources */,
+				9DA54EDC1D258C9E159BDE3ED3C52426 /* Internet.swift in Sources */,
+				F042FEA0BBC1CE825C8AC8D01796AF4F /* Lorem.swift in Sources */,
+				C80B8D3209931CE23203B9B115EEFACB /* Name.swift in Sources */,
+				94DDA25FAA9C8A3E3E76E9921636B7D6 /* Number.swift in Sources */,
+				42C8EF28242E43278CBE3C18E09E02C8 /* Parser.swift in Sources */,
+				EE9F622713A0DE3062516BCCFD972974 /* PhoneNumber.swift in Sources */,
+				E83AB7C01E65EE84DB08A05D52C27CB1 /* Provider.swift in Sources */,
+				AC456189CA96731A8996DA29FE5EF8CD /* Team.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		44AEBC62BDB584A18A30013F20411E60 /* Sources */ = {
+		8926519E110582AC09E8DBEAC135C934 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4649690AF16E6C1BAA32B790F7346B39 /* Pods-SwiftIndiaAuthTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B92CE4C7917C4061B5103FD31BC0349 /* Sources */ = {
+		98CDBA07FA30B76F686B70CC1FCCAF4D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				410962280E88E100174337BAB4E0D812 /* Pods-SwiftIndiaAuthTests_macOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B81EFCFFE4D6E5ACF33C2F7777C5F093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5934B16C464CF88FEB68A18E20C5DECC /* Pods-SwiftIndiaAuthTests_iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C16D8773C60EB6DD72BADC70B379B258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D690EB476B77B981D355C6A33C8D2E /* Pods-SwiftIndiaAuth_macOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4682ED8C32E937459260E2955EAF003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6671F127F95B5A645CBA0400E93A23B /* Address.swift in Sources */,
+				D80004CB5DD1FC053D8525B2DE924B7B /* App.swift in Sources */,
+				8FA73CBEB1F4F2C8C868028DBE39FD6F /* ArrayExtension.swift in Sources */,
+				D6E6755BE98C6F7CEFA12BF2B81FFF5B /* Bank.swift in Sources */,
+				1F96AEBC0EB25E19B26BC651E6B8C71E /* Business.swift in Sources */,
+				502A0CD9CCE4B1211EBA97DDBA888C29 /* Commerce.swift in Sources */,
+				6B17658BD18CD27342ABE8E238437007 /* Company.swift in Sources */,
+				F3B70BCC44CFBE6A427F5405B2F800A6 /* Config.swift in Sources */,
+				DC75CA1C4B2CD559911C0FB4972971D2 /* Date.swift in Sources */,
+				203117EE0C1F3B7124DB273F664F002F /* Faker.swift in Sources */,
+				9B4B234F6928635DDAE482B974CB8147 /* Fakery-macOS-dummy.m in Sources */,
+				556688E3A893078AF72F13B352478AAF /* Generator.swift in Sources */,
+				AC3C54B959662C5B46AB74CB52E4199C /* Internet.swift in Sources */,
+				47E169974A17FC0F7B9B90751C0800B7 /* Lorem.swift in Sources */,
+				A181E76689AD2AE865E6B75CF7C6E5F2 /* Name.swift in Sources */,
+				1F29AF71BDE707D58CD585826BCEDB53 /* Number.swift in Sources */,
+				58CF52ACB27A9F374800E75AA96C25B2 /* Parser.swift in Sources */,
+				4BB67B0431DF94F357ADA4ACE1C5DB0F /* PhoneNumber.swift in Sources */,
+				6873205842C9C16CE72B830D982BFD07 /* Provider.swift in Sources */,
+				5A84E4D3BA82FC538429FB9616E68F4D /* Team.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F0436120FA7C0EBE0922AAECAB425E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8412421493970FF6C1F9F576A18C052 /* Pods-SwiftIndiaAuth_iOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5A6881A6C9B3FB0AD53551BDE79E7EE7 /* PBXTargetDependency */ = {
+		388DEECA967E0DBC9C385A02E329D0E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-SwiftIndiaAuth";
-			target = CA49A5A3764192CBDC0B070153D00A6F /* Pods-SwiftIndiaAuth */;
-			targetProxy = 049C2914B539E1E71497C0A83234E948 /* PBXContainerItemProxy */;
+			name = "Fakery-macOS-Faker";
+			target = CC7F207C297B60AC18E34A13F4D1F8E2 /* Fakery-macOS-Faker */;
+			targetProxy = 9579412E7054EC48A8016E80ABDD0BB9 /* PBXContainerItemProxy */;
 		};
-		65448DFC2778803358CC49F1F0266713 /* PBXTargetDependency */ = {
+		5E3E709C0B60EBC5B67D31A36A8AFFD0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Fakery;
-			target = 0E0176CCA7C8C85C89BC1E45EA82145D /* Fakery */;
-			targetProxy = A9670509231EFFD49AD6D741C70838C6 /* PBXContainerItemProxy */;
+			name = "Fakery-iOS";
+			target = 026F41CDFC2A4EE275389E13E72B283A /* Fakery-iOS */;
+			targetProxy = 76B6D07F2AB94B90A97A71EAB5C8619E /* PBXContainerItemProxy */;
 		};
-		FBFD7AD96C460071ECC46081D575357C /* PBXTargetDependency */ = {
+		954F7CC38321CDC1E2D5CE2D0282BCDB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Fakery-Faker";
-			target = 1DABA95AD7151E245831A4517CAD760C /* Fakery-Faker */;
-			targetProxy = 8B35846FF9ED97A8260A7AC82A7B6D6D /* PBXContainerItemProxy */;
+			name = "Fakery-iOS-Faker";
+			target = 85C3462AA09F971B597AF1CA7DDAD008 /* Fakery-iOS-Faker */;
+			targetProxy = 7D25F8A7C6973AC626C99E78F8973850 /* PBXContainerItemProxy */;
+		};
+		9B896868E959F864AE6290364EFB9226 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SwiftIndiaAuth_macOS";
+			target = B5D5D5CDFCAE090EAE3B90A5C8583F8B /* Pods-SwiftIndiaAuth_macOS */;
+			targetProxy = 75E2FCF38B2B3C7687B77884C81BE3BF /* PBXContainerItemProxy */;
+		};
+		D924C19A4CE6FC3BCE7FBAE2D93811C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Fakery-macOS";
+			target = 0EF0F8B4BC525D2503ED1C8504A3FC06 /* Fakery-macOS */;
+			targetProxy = 37CEA4D38D87C95EE0DD899C7631E38D /* PBXContainerItemProxy */;
+		};
+		F2ACBF94740DD5FA2A38B2BEE6E881F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SwiftIndiaAuth_iOS";
+			target = CB199CD072AAC7177F36AB3B05EDAB26 /* Pods-SwiftIndiaAuth_iOS */;
+			targetProxy = 0617C0239D0D5C631C3BDE1F06BCD3E8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		088EB6FF871DABC8862967DAA544AF66 /* Release */ = {
+		02AD02CA8128F4201EDABAED4CD4FB0F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20198C359719C2AE4D4EB03FA5E28A4E /* Pods-SwiftIndiaAuth.release.xcconfig */;
+			baseConfigurationReference = 2270D93CE90DB0529BD688A1CF25EC14 /* Pods-SwiftIndiaAuth_iOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -647,16 +1067,94 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftIndiaAuth/Pods-SwiftIndiaAuth-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftIndiaAuth_iOS/Pods-SwiftIndiaAuth_iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftIndiaAuth/Pods-SwiftIndiaAuth.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftIndiaAuth_iOS/Pods-SwiftIndiaAuth_iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0A33100102E368697D4C6D30DC5DA6B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A94C6A4928AA5091BCA10050C770D72A /* Pods-SwiftIndiaAuthTests_macOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftIndiaAuthTests_macOS/Pods-SwiftIndiaAuthTests_macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftIndiaAuthTests_macOS/Pods-SwiftIndiaAuthTests_macOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1049F9ECFD011E9315D9C6AAC55C8B2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DBED6CE6A96A7A870916F17F85D6863 /* Pods-SwiftIndiaAuthTests_iOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftIndiaAuthTests_iOS/Pods-SwiftIndiaAuthTests_iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftIndiaAuthTests_iOS/Pods-SwiftIndiaAuthTests_iOS.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -671,7 +1169,438 @@
 			};
 			name = Release;
 		};
-		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
+		1AB80BF37831815FDF1AAA42D5CFB550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 459ACBE0FB55C8C01C08B6720676C122 /* Fakery-macOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Fakery-macOS";
+				INFOPLIST_FILE = "Target Support Files/Fakery-macOS/ResourceBundle-Faker-Fakery-macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = Faker;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		22FAEF425EAE489E4496C975559B84E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17F1BC9DD219FCE0BFEBF0D7DC4EB072 /* Fakery-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Fakery-iOS";
+				INFOPLIST_FILE = "Target Support Files/Fakery-iOS/ResourceBundle-Faker-Fakery-iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Faker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		23933EA37B299B0F8507853873675EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 459ACBE0FB55C8C01C08B6720676C122 /* Fakery-macOS.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Fakery-macOS/Fakery-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Fakery-macOS/Fakery-macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Fakery-macOS/Fakery-macOS.modulemap";
+				PRODUCT_MODULE_NAME = Fakery;
+				PRODUCT_NAME = Fakery;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2E0D4982EA612E2D59DFF2FA544D8DE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17F1BC9DD219FCE0BFEBF0D7DC4EB072 /* Fakery-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Fakery-iOS/Fakery-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Fakery-iOS/Fakery-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Fakery-iOS/Fakery-iOS.modulemap";
+				PRODUCT_MODULE_NAME = Fakery;
+				PRODUCT_NAME = Fakery;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		38AA076A0110D279AC56DD1B4B0F0F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 459ACBE0FB55C8C01C08B6720676C122 /* Fakery-macOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Fakery-macOS";
+				INFOPLIST_FILE = "Target Support Files/Fakery-macOS/ResourceBundle-Faker-Fakery-macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = Faker;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5B848CA3D4C0C5EFF8175D8BEC1A6C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17F1BC9DD219FCE0BFEBF0D7DC4EB072 /* Fakery-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Fakery-iOS";
+				INFOPLIST_FILE = "Target Support Files/Fakery-iOS/ResourceBundle-Faker-Fakery-iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Faker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		609EC28A1EFCB5EC55B0DA8EF8F8AB3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8DA5C77706628E0C2BC328287D53DD3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E8B1511B806E54651F0FD9C65782976 /* Pods-SwiftIndiaAuthTests_macOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftIndiaAuthTests_macOS/Pods-SwiftIndiaAuthTests_macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftIndiaAuthTests_macOS/Pods-SwiftIndiaAuthTests_macOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DA5D6BB74ED60918CC80D98664C75A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15929AA6C6A61DC3444CA6D1FDD40041 /* Pods-SwiftIndiaAuth_iOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftIndiaAuth_iOS/Pods-SwiftIndiaAuth_iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftIndiaAuth_iOS/Pods-SwiftIndiaAuth_iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A440B15AC1DE0C326339A0CBD4E38998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FB80B89893289D7AAF08FBBCB2DCCF6 /* Pods-SwiftIndiaAuth_macOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftIndiaAuth_macOS/Pods-SwiftIndiaAuth_macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftIndiaAuth_macOS/Pods-SwiftIndiaAuth_macOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BCF9178BBCD71CFBE89E2FF3EF6EEDCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17F1BC9DD219FCE0BFEBF0D7DC4EB072 /* Fakery-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Fakery-iOS/Fakery-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Fakery-iOS/Fakery-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Fakery-iOS/Fakery-iOS.modulemap";
+				PRODUCT_MODULE_NAME = Fakery;
+				PRODUCT_NAME = Fakery;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7E0FC20488C2A0BE12441479FB690EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 874B89F25A7A2A5C42E35D128A599E93 /* Pods-SwiftIndiaAuth_macOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftIndiaAuth_macOS/Pods-SwiftIndiaAuth_macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftIndiaAuth_macOS/Pods-SwiftIndiaAuth_macOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB667B7229B8FE12548EFF7918887A08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 459ACBE0FB55C8C01C08B6720676C122 /* Fakery-macOS.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Fakery-macOS/Fakery-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Fakery-macOS/Fakery-macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Fakery-macOS/Fakery-macOS.modulemap";
+				PRODUCT_MODULE_NAME = Fakery;
+				PRODUCT_NAME = Fakery;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0D975285D24CC54A9FB368ED7CFE2DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -722,7 +1651,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -735,25 +1665,9 @@
 			};
 			name = Debug;
 		};
-		247660B72B18D470A0EA366FA0D569EE /* Release */ = {
+		F0B1245D63D3B5166E276839D61AC165 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E0EAB6AA2C7E67F2CFCF6FEDB19D84C /* Fakery.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Fakery";
-				INFOPLIST_FILE = "Target Support Files/Fakery/ResourceBundle-Faker-Fakery-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = Faker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		56119B69BE463234F13A2CC2921DA3F4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 192634B29D19212FC42788E3BA2DD2CD /* Pods-SwiftIndiaAuthTests.release.xcconfig */;
+			baseConfigurationReference = 6A811116B490D9C1B02A441219B919E2 /* Pods-SwiftIndiaAuthTests_iOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -766,91 +1680,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftIndiaAuthTests/Pods-SwiftIndiaAuthTests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftIndiaAuthTests_iOS/Pods-SwiftIndiaAuthTests_iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftIndiaAuthTests/Pods-SwiftIndiaAuthTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		767CD1F5A0CEAF29DF42ACB122FC9F67 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E0EAB6AA2C7E67F2CFCF6FEDB19D84C /* Fakery.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Fakery/Fakery-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Fakery/Fakery-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Fakery/Fakery.modulemap";
-				PRODUCT_MODULE_NAME = Fakery;
-				PRODUCT_NAME = Fakery;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7FD81B7CE16AEFE7042F9154C2739C72 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC5EB880761E08C9BADAB1B89305A28E /* Pods-SwiftIndiaAuth.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftIndiaAuth/Pods-SwiftIndiaAuth-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftIndiaAuth/Pods-SwiftIndiaAuth.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftIndiaAuthTests_iOS/Pods-SwiftIndiaAuthTests_iOS.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -863,200 +1702,87 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		95B1DEE7722D63DE0637294BB621DA28 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DB3D8BE7BECFEADBDF143F35B63667D /* Pods-SwiftIndiaAuthTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftIndiaAuthTests/Pods-SwiftIndiaAuthTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftIndiaAuthTests/Pods-SwiftIndiaAuthTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B5212F923B1258119C8EB6DB58D8A48E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E0EAB6AA2C7E67F2CFCF6FEDB19D84C /* Fakery.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Fakery/Fakery-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Fakery/Fakery-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Fakery/Fakery.modulemap";
-				PRODUCT_MODULE_NAME = Fakery;
-				PRODUCT_NAME = Fakery;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C55B9CC65893F1CED40077B3850E5F1C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E0EAB6AA2C7E67F2CFCF6FEDB19D84C /* Fakery.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Fakery";
-				INFOPLIST_FILE = "Target Support Files/Fakery/ResourceBundle-Faker-Fakery-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = Faker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		445C6983AA222FDF1E87AB313C0C2CE8 /* Build configuration list for PBXNativeTarget "Fakery-macOS-Faker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38AA076A0110D279AC56DD1B4B0F0F6A /* Debug */,
+				1AB80BF37831815FDF1AAA42D5CFB550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		469C51F67E2ED4323B24B69CB14037F4 /* Build configuration list for PBXNativeTarget "Pods-SwiftIndiaAuthTests_macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A33100102E368697D4C6D30DC5DA6B9 /* Debug */,
+				8DA5C77706628E0C2BC328287D53DD3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				131356BE54884448CA49C07BEDF4BB2A /* Debug */,
-				F090CD07A80273D5A73C8EA19224ADDB /* Release */,
+				D0D975285D24CC54A9FB368ED7CFE2DD /* Debug */,
+				609EC28A1EFCB5EC55B0DA8EF8F8AB3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6330638DCE3AC258C7702CD6378C619A /* Build configuration list for PBXNativeTarget "Fakery" */ = {
+		6D01F476C49B5D50083DFE91BE0146B5 /* Build configuration list for PBXNativeTarget "Pods-SwiftIndiaAuthTests_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5212F923B1258119C8EB6DB58D8A48E /* Debug */,
-				767CD1F5A0CEAF29DF42ACB122FC9F67 /* Release */,
+				F0B1245D63D3B5166E276839D61AC165 /* Debug */,
+				1049F9ECFD011E9315D9C6AAC55C8B2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C152C045102C940BF7957EF3C5D95A76 /* Build configuration list for PBXNativeTarget "Fakery-Faker" */ = {
+		99E3AE26053572E844EA542B60E51F92 /* Build configuration list for PBXNativeTarget "Pods-SwiftIndiaAuth_macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C55B9CC65893F1CED40077B3850E5F1C /* Debug */,
-				247660B72B18D470A0EA366FA0D569EE /* Release */,
+				C7E0FC20488C2A0BE12441479FB690EB /* Debug */,
+				A440B15AC1DE0C326339A0CBD4E38998 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C5A3151CA9361E783CD4DA482ACED14A /* Build configuration list for PBXNativeTarget "Pods-SwiftIndiaAuth" */ = {
+		A5BE4BE6640F78478A2E7E6B40CDC54A /* Build configuration list for PBXNativeTarget "Pods-SwiftIndiaAuth_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7FD81B7CE16AEFE7042F9154C2739C72 /* Debug */,
-				088EB6FF871DABC8862967DAA544AF66 /* Release */,
+				02AD02CA8128F4201EDABAED4CD4FB0F /* Debug */,
+				8DA5D6BB74ED60918CC80D98664C75A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5E6783A153E44287EACE1BE85027841 /* Build configuration list for PBXNativeTarget "Pods-SwiftIndiaAuthTests" */ = {
+		CE48EB2AA0B83A03A56BA8DE30599948 /* Build configuration list for PBXNativeTarget "Fakery-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				95B1DEE7722D63DE0637294BB621DA28 /* Debug */,
-				56119B69BE463234F13A2CC2921DA3F4 /* Release */,
+				BCF9178BBCD71CFBE89E2FF3EF6EEDCE /* Debug */,
+				2E0D4982EA612E2D59DFF2FA544D8DE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9DD11D6ECAF686A1E7028A6B422F731 /* Build configuration list for PBXNativeTarget "Fakery-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB667B7229B8FE12548EFF7918887A08 /* Debug */,
+				23933EA37B299B0F8507853873675EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E53478D3861EA35C521C78F9C48D0B9A /* Build configuration list for PBXNativeTarget "Fakery-iOS-Faker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B848CA3D4C0C5EFF8175D8BEC1A6C04 /* Debug */,
+				22FAEF425EAE489E4496C975559B84E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
